@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+%\usepackage{mathptmx}    % times with math
+%\usepackage{pxfonts}
+%\usepackage[sc]{mathpazo}
+\usepackage[T1]{fontenc}
+
+\usepackage{authblk}
+\usepackage{lineno}
+\usepackage{graphicx}
+\linespread{1.15}
+
+\renewcommand{\theequation}{S.\arabic{equation}}
+
+\newcommand{\nf}[1]{\text{#1}}
+
+\usepackage[
+  backend=biber,
+  citestyle = authoryear,
+  bibstyle = authoryear,
+  firstinits=true,
+  uniquename=false
+  ]{biblatex}
+\addbibresource{cfs-model-refs.bib}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=false,
+  citecolor=blue
+}
+
+% redefine abstract environment
+\renewenvironment{abstract}
+{\begin{quote}
+\small
+\noindent \rule{\linewidth}{.5pt}\par{\bfseries \abstractname.}}
+{\medskip\noindent \rule{\linewidth}{.5pt}
+\end{quote}
+}
+
+\usepackage[textfont=it, labelfont=bf]{caption}
+
+\title{A stylised mathematical model of national-level food system security}
+\author[1]{Conor Goold}
+\affil[1]{Faculty of Biological Sciences, University of Leeds, LS2 9JT, UK}
+\date{}
+
+\begin{document}
+\linenumbers
+\modulolinenumbers[5]
+
+\maketitle
+\begin{abstract}
+  Global food security is threatened by various endogeneous and exogeneous, biotic and abiotic factors, including a rising human population, higher population densities, price volatility and climate change. Perturbations to the global food system have a direct effect on the security and resilience food systems. These effects are felt, in different ways, by both producers, processors and consumers. Various mathematical and computational models exist to understand food systems' responses to shocks and stresses, but most models are tailored to making predictions of specific food systems and contexts. Here, we present and analyse a stylised mathematical model of a national-level food system that incorporates dynamic interactions between domestic production of a food commodity, international trade, domestic demand and consumption, and food commodity price. The model exhibits two dominant modes of behaviour, unsustainable and sustainable domestic production, the stabilty of which depends on a balance between the strength of internationa trade and local production costs. As an example, we fit our dynamic systems model to data from the UK pig industry using Bayesian estimation.\\
+\end{abstract}
+
+\newpage
+\tableofcontents
+
+\section{Introduction}
+Food security is defined as ``when all people at all times have physical and economic access to sufficient, safe and nutritous food to meet their dietary needs and preferences for an active and healthy life'' (\cite{FAO1996}). The realisation of food security depends on the three pillars of access, utilisation and availability (\cite{maxwell1996}; \cite{barrett2010}), and therefore is an outcome of coupled agricultural, ecological and sociological systems (\cite{hammond2012}; \cite{ericksen2008}; \cite{ingram2011}). In recent years, the resilience of food security has become a priority area of research (e.g. \cite{nystrom2019}; \cite{tendall2015}; \cite{bene2016}; \cite{seekell2017}) as biotic and abiotic, endogeneous and exogeneous demands on food systems grow, including the deleterious effects food systems have on their own environments (\cite{springmann2018}; \cite{strzepek2010}). The challenge of food security is for food systems to expand their production capacities while both remaining resilient to unpredictable perturbations and limiting their effects on the environment (\cite{ericksen2010}).
+
+Food system research is inherently transdisciplinary (\cite{drimie2013}; \cite{hammond2012}), of which one strand is computational and mathematical modelling. The utility of quantitative modelling is the ability to build and perturb realistic models of food systems to project important outcomes, such as food production levels, farmer profitability, envirnomental degradation, food waste, and consumer behaviour (e.g. \cite{springmann2018}; \cite{marchand2016}; \cite{sampedro2020}; \cite{suweis2015}; \cite{scalco2019}). The difficulty in modelling food systems is their complexity, often requiring large models in detail (i.e. number of parameters), scope (i.e. number of dynamic variables), or both, which are challenging to analyse, and even more challenging to statistically estimate from noisy real-world data. A handful of authors have used relatively simple, theoretical models to understand the activities of global food system. For example, \textcite{suweis2015} link population dynamics to food availability and international trade using a generalised logistic model. Similarly, \textcite{tu2019} adapt the analytical framework of \textcite{gao2016} to determine that the global food system is approaching a critical point signifying loss of the global food system's sustainability. Moreover, \textcite{ngonghala2017} demonstrate the dynamical interactions between human poverty, economic growth, and disease from simpled models of coupled differential equations. Simplified models of complex systems elicit specific explanations and hypotheses of how systems work (\cite{smaldino2019}), which are, arguably, more amenable to direct hypothesis-testing from available data than larger models that involve a many more causal pathways and potential redundancies. Such \textit{stylised} models are staples of scientific disciplines such as ecology (e.g. \cite{may1973}), evolutionary biology (\cite{boyd2003}), epidemiology (\cite{kermack1927}), and physics (\cite{strogatz1994}). 
+
+\newpage
+\printbibliography
+\end{document}

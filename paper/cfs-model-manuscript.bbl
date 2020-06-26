@@ -1,0 +1,1139 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global/}
+    \entry{barrett2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=09f0c6940cb6971e7a5f0b4fa591055a}{%
+           family={Barrett},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima B},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{09f0c6940cb6971e7a5f0b4fa591055a}
+      \strng{fullhash}{09f0c6940cb6971e7a5f0b4fa591055a}
+      \strng{authornamehash}{09f0c6940cb6971e7a5f0b4fa591055a}
+      \strng{authorfullhash}{09f0c6940cb6971e7a5f0b4fa591055a}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5967}
+      \field{title}{Measuring food insecurity}
+      \field{volume}{327}
+      \field{year}{2010}
+      \field{pages}{825\bibrangedash 828}
+      \range{pages}{4}
+    \endentry
+    \entry{bene2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5c2e8331626585ea813023d02168c23d}{%
+           family={B\'{e}n\'{e}},
+           familyi={B\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+        {{hash=32426d9763ddb1ab09f31694186f71a0}{%
+           family={Headey},
+           familyi={H\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a19337d097995a682b9e14934a3ecc7b}{%
+           family={Haddad},
+           familyi={H\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b1b331efce634bfda22bcaa3276c30a}{%
+           family={Grebmer},
+           familyi={G\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{58828a1f2d56004e0886932be6d65c6d}
+      \strng{fullhash}{552c6a0bc5692946d0ef953b555060f0}
+      \strng{authornamehash}{58828a1f2d56004e0886932be6d65c6d}
+      \strng{authorfullhash}{552c6a0bc5692946d0ef953b555060f0}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Food Security}
+      \field{number}{1}
+      \field{title}{Is resilience a useful concept in the context of food security and nutrition programmes? Some conceptual and practical considerations}
+      \field{volume}{8}
+      \field{year}{2016}
+      \field{pages}{123\bibrangedash 138}
+      \range{pages}{16}
+    \endentry
+    \entry{boyd2003}{article}{}
+      \name{author}{4}{}{%
+        {{hash=018a1bcaeb722c836df66d27c47f298a}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=28a789271210b1599883428ca9ba7997}{%
+           family={Gintis},
+           familyi={G\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e0df54abddcd6c63678de2c0b46f9762}{%
+           family={Bowles},
+           familyi={B\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=473b64168acc2f7fb35d02171dc0c405}{%
+           family={Richerson},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{368294886a2f2b54f7b49030674779b8}
+      \strng{fullhash}{60f11744fc7142960106adcc422675e3}
+      \strng{authornamehash}{368294886a2f2b54f7b49030674779b8}
+      \strng{authorfullhash}{60f11744fc7142960106adcc422675e3}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{6}
+      \field{title}{The evolution of altruistic punishment}
+      \field{volume}{100}
+      \field{year}{2003}
+      \field{pages}{3531\bibrangedash 3535}
+      \range{pages}{5}
+    \endentry
+    \entry{drimie2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=205b6cbb87d4f700eacb81c25f7ab697}{%
+           family={Drimie},
+           familyi={D\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6988a4b6881f12ef54b3e4729f09482e}{%
+           family={McLachlan},
+           familyi={M\bibinitperiod},
+           given={Milla},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6a1476ec16e78c4b21288e49a336db9b}
+      \strng{fullhash}{6a1476ec16e78c4b21288e49a336db9b}
+      \strng{authornamehash}{6a1476ec16e78c4b21288e49a336db9b}
+      \strng{authorfullhash}{6a1476ec16e78c4b21288e49a336db9b}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Food Security}
+      \field{number}{2}
+      \field{title}{Food security in South Africa: first steps toward a transdisciplinary approach}
+      \field{volume}{5}
+      \field{year}{2013}
+      \field{pages}{217\bibrangedash 226}
+      \range{pages}{10}
+    \endentry
+    \entry{ericksen2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fb8fb95ffc3ed65455467872208cefc4}{%
+           family={Ericksen},
+           familyi={E\bibinitperiod},
+           given={Polly\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fb8fb95ffc3ed65455467872208cefc4}
+      \strng{fullhash}{fb8fb95ffc3ed65455467872208cefc4}
+      \strng{authornamehash}{fb8fb95ffc3ed65455467872208cefc4}
+      \strng{authorfullhash}{fb8fb95ffc3ed65455467872208cefc4}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global environmental change}
+      \field{number}{1}
+      \field{title}{Conceptualizing food systems for global environmental change research}
+      \field{volume}{18}
+      \field{year}{2008}
+      \field{pages}{234\bibrangedash 245}
+      \range{pages}{12}
+    \endentry
+    \entry{ericksen2010}{article}{}
+      \name{author}{7}{uniquelist=1}{%
+        {{hash=0e4128017db2182b40054ebae4837627}{%
+           family={Ericksen},
+           familyi={E\bibinitperiod},
+           given={Polly},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1e4a3bc30ad6e04e5b3d38b3ec118938}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Beth},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1b255bf2ca18d49f3406f2668ab05410}{%
+           family={Dixon},
+           familyi={D\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ba6a96c54ca9b89edb3b4692f88c6445}{%
+           family={Barling},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=93e9b8975ee1eacf6ab3ca3ec5139e79}{%
+           family={Loring},
+           familyi={L\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ae6f6658e07c2ef03327bdbfa5357be4}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Molly},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dc97735830c51b7a9c9cd09da321a4c5}{%
+           family={Ingram},
+           familyi={I\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Earthscan, London, UK}%
+      }
+      \strng{namehash}{eda79e79855143cdcb4221026bf2d231}
+      \strng{fullhash}{b3f57d479af64f13ddbf37d30c8ca7e7}
+      \strng{authornamehash}{eda79e79855143cdcb4221026bf2d231}
+      \strng{authorfullhash}{b3f57d479af64f13ddbf37d30c8ca7e7}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Food security and global environmental change}
+      \field{title}{The value of a food system approach}
+      \field{volume}{25}
+      \field{year}{2010}
+      \field{pages}{24\bibrangedash 25}
+      \range{pages}{2}
+    \endentry
+    \entry{FAO1996}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c099f80f5f619912404a2a2221bb6948}{%
+           family={FAO.},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {FAO}%
+      }
+      \strng{namehash}{c099f80f5f619912404a2a2221bb6948}
+      \strng{fullhash}{c099f80f5f619912404a2a2221bb6948}
+      \strng{authornamehash}{c099f80f5f619912404a2a2221bb6948}
+      \strng{authorfullhash}{c099f80f5f619912404a2a2221bb6948}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{World Food Summit: Rome Declaration on World Food Security and World Food Summit Plan of Action}
+      \field{year}{1996}
+    \endentry
+    \entry{gao2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=101b2780c163541702124c6c1842d522}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jianxi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=81d01eafde1d9acbfdb9ea8e25e78100}{%
+           family={Barzel},
+           familyi={B\bibinitperiod},
+           given={Baruch},
+           giveni={B\bibinitperiod}}}%
+        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
+           family={Barab\'{a}si},
+           familyi={B\bibinitperiod},
+           given={Albert-L\'{a}szl\'{o}},
+           giveni={A\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{3d5bce0b09b2958205769980c91e4a08}
+      \strng{fullhash}{3d5bce0b09b2958205769980c91e4a08}
+      \strng{authornamehash}{3d5bce0b09b2958205769980c91e4a08}
+      \strng{authorfullhash}{3d5bce0b09b2958205769980c91e4a08}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7590}
+      \field{title}{Universal resilience patterns in complex networks}
+      \field{volume}{530}
+      \field{year}{2016}
+      \field{pages}{307}
+      \range{pages}{1}
+    \endentry
+    \entry{hammond2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d455c97496072480d5aafbb595299b29}{%
+           family={Hammond},
+           familyi={H\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=952fddb2eb71f10b5752f4fd631c314a}{%
+           family={Dub\'{e}},
+           familyi={D\bibinitperiod},
+           given={Laurette},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{b877a3f99619fa27b3bc235f91842736}
+      \strng{fullhash}{b877a3f99619fa27b3bc235f91842736}
+      \strng{authornamehash}{b877a3f99619fa27b3bc235f91842736}
+      \strng{authorfullhash}{b877a3f99619fa27b3bc235f91842736}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{31}
+      \field{title}{A systems science perspective and transdisciplinary models for food and nutrition security}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{12356\bibrangedash 12363}
+      \range{pages}{8}
+    \endentry
+    \entry{ingram2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=836c689b807706375b75e012b51dfd75}{%
+           family={Ingram},
+           familyi={I\bibinitperiod},
+           given={John\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{836c689b807706375b75e012b51dfd75}
+      \strng{fullhash}{836c689b807706375b75e012b51dfd75}
+      \strng{authornamehash}{836c689b807706375b75e012b51dfd75}
+      \strng{authorfullhash}{836c689b807706375b75e012b51dfd75}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Food Security}
+      \field{number}{4}
+      \field{title}{A food systems approach to researching food security and its interactions with global environmental change}
+      \field{volume}{3}
+      \field{year}{2011}
+      \field{pages}{417\bibrangedash 431}
+      \range{pages}{15}
+    \endentry
+    \entry{kermack1927}{article}{}
+      \name{author}{2}{}{%
+        {{hash=744756b9b06b75902624670c6213fd65}{%
+           family={Kermack},
+           familyi={K\bibinitperiod},
+           given={William\bibnamedelima Ogilvy},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=13df8a1ca2922b76015d2662b3b285f9}{%
+           family={McKendrick},
+           familyi={M\bibinitperiod},
+           given={Anderson\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society London}%
+      }
+      \strng{namehash}{cee850bbb9c3048b481f9d26a32a01e4}
+      \strng{fullhash}{cee850bbb9c3048b481f9d26a32a01e4}
+      \strng{authornamehash}{cee850bbb9c3048b481f9d26a32a01e4}
+      \strng{authorfullhash}{cee850bbb9c3048b481f9d26a32a01e4}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the royal society of london. Series A, Containing papers of a mathematical and physical character}
+      \field{number}{772}
+      \field{title}{A contribution to the mathematical theory of epidemics}
+      \field{volume}{115}
+      \field{year}{1927}
+      \field{pages}{700\bibrangedash 721}
+      \range{pages}{22}
+    \endentry
+    \entry{marchand2016}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=74f666f9fb6c2b769a9a3d20f3de64b4}{%
+           family={Marchand},
+           familyi={M\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a831121a67a5d56b4c58dd1a37b90604}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={Joel\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=707347787cd35cb335f1b6c3d98cfd5b}{%
+           family={Dell\x{fffd}\x{fffd}\x{fffd}Angelo},
+           familyi={D\bibinitperiod},
+           given={Jampel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=92560f67a82a1024fc48e03340966c2a}{%
+           family={Fader},
+           familyi={F\bibinitperiod},
+           given={Marianela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=453629de58692e5707eb45053e746c24}{%
+           family={Gephart},
+           familyi={G\bibinitperiod},
+           given={Jessica\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b05ab9d76a9be5761a4742a6d04c0d7b}{%
+           family={Kummu},
+           familyi={K\bibinitperiod},
+           given={Matti},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5de9e1b89a8272052403b850abbb950f}{%
+           family={Magliocca},
+           familyi={M\bibinitperiod},
+           given={Nicholas\bibnamedelima R},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ebe1715b0ab35c095dcbc51679d5ed0e}{%
+           family={Porkka},
+           familyi={P\bibinitperiod},
+           given={Miina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2cd277baa94ede91a935aade7732ef4c}{%
+           family={Puma},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5d2a83d3bb749cd7396b448199f05da2}{%
+           family={Ratajczak},
+           familyi={R\bibinitperiod},
+           given={Zak},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{d6a2175b6c87c86f7daa619b08e2d885}
+      \strng{fullhash}{be37b0d3bad04ae6817441962a367aa4}
+      \strng{authornamehash}{d6a2175b6c87c86f7daa619b08e2d885}
+      \strng{authorfullhash}{be37b0d3bad04ae6817441962a367aa4}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Research Letters}
+      \field{number}{9}
+      \field{title}{Reserves and trade jointly determine exposure to food supply shocks}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{095009}
+      \range{pages}{1}
+    \endentry
+    \entry{maxwell1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ec73fab536003ab85c63dea1f36725fc}{%
+           family={Maxwell},
+           familyi={M\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ec73fab536003ab85c63dea1f36725fc}
+      \strng{fullhash}{ec73fab536003ab85c63dea1f36725fc}
+      \strng{authornamehash}{ec73fab536003ab85c63dea1f36725fc}
+      \strng{authorfullhash}{ec73fab536003ab85c63dea1f36725fc}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Food policy}
+      \field{number}{2}
+      \field{title}{Food security: a post-modern perspective}
+      \field{volume}{21}
+      \field{year}{1996}
+      \field{pages}{155\bibrangedash 170}
+      \range{pages}{16}
+    \endentry
+    \entry{may1973}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ff60baf137a2c4388aa2a525c8dc316e}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{ff60baf137a2c4388aa2a525c8dc316e}
+      \strng{fullhash}{ff60baf137a2c4388aa2a525c8dc316e}
+      \strng{authornamehash}{ff60baf137a2c4388aa2a525c8dc316e}
+      \strng{authorfullhash}{ff60baf137a2c4388aa2a525c8dc316e}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology}
+      \field{number}{3}
+      \field{title}{Qualitative stability in model ecosystems}
+      \field{volume}{54}
+      \field{year}{1973}
+      \field{pages}{638\bibrangedash 641}
+      \range{pages}{4}
+    \endentry
+    \entry{ngonghala2017}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b7b6ecf30f79f66d7ad6a12e6f0fcd93}{%
+           family={Ngonghala},
+           familyi={N\bibinitperiod},
+           given={Calistus\bibnamedelima N},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=09be6646243d74d342c9ac944864f163}{%
+           family={De\bibnamedelima Leo},
+           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Giulio\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fddc335c012f8826af6ac304c503074a}{%
+           family={Pascual},
+           familyi={P\bibinitperiod},
+           given={Mercedes\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d432156a92dc23d2b1f7504746f3ab5d}{%
+           family={Keenan},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima C},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ad0498a92f4bb15e01493ce7ac860848}{%
+           family={Dobson},
+           familyi={D\bibinitperiod},
+           given={Andrew\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=812baac035f8949956049b726f13f197}{%
+           family={Bonds},
+           familyi={B\bibinitperiod},
+           given={Matthew\bibnamedelima H},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a3e0b41a800957bcb648413395c1e3b4}
+      \strng{fullhash}{72254a15b19459d6b2ebc6080ed879c5}
+      \strng{authornamehash}{a3e0b41a800957bcb648413395c1e3b4}
+      \strng{authorfullhash}{72254a15b19459d6b2ebc6080ed879c5}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature ecology \& evolution}
+      \field{number}{8}
+      \field{title}{General ecological models for human subsistence, health and poverty}
+      \field{volume}{1}
+      \field{year}{2017}
+      \field{pages}{1153\bibrangedash 1159}
+      \range{pages}{7}
+    \endentry
+    \entry{nystrom2019}{article}{}
+      \name{author}{9}{}{%
+        {{hash=4158bb637faaf281115bbff25193fdca}{%
+           family={Nystr\"{o}m},
+           familyi={N\bibinitperiod},
+           given={Magnus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e747f68199f5d959cf8d59c0deeb9e2e}{%
+           family={Jouffray},
+           familyi={J\bibinitperiod},
+           given={J-B},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=579f840433a7822ad3402fc2bf904856}{%
+           family={Norstr\"{o}m},
+           familyi={N\bibinitperiod},
+           given={Albert\bibnamedelima V},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=78e5dd6abd7e826d56c92de0a924ccd2}{%
+           family={Crona},
+           familyi={C\bibinitperiod},
+           given={Beatrice},
+           giveni={B\bibinitperiod}}}%
+        {{hash=66a4e98871e53e54ce9afce36807a19b}{%
+           family={J{\o{}}rgensen},
+           familyi={J\bibinitperiod},
+           given={P\bibnamedelima S{\o{}}gaard},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=1217c3eb408055c5d3461281be2c10db}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={SR},
+           giveni={S\bibinitperiod}}}%
+        {{hash=82a6d7551d89b6fa6bd880ae46657e60}{%
+           family={Bodin},
+           familyi={B\bibinitperiod},
+           given={\"{O}rjan},
+           giveni={\"{O}\bibinitperiod}}}%
+        {{hash=424a4631a6be5616d38d111bc1ceb031}{%
+           family={Galaz},
+           familyi={G\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=33396b38f27fa7e13c6e1581623ba37c}{%
+           family={Folke},
+           familyi={F\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{15d7af87a465c28cff73dfe548e5107e}
+      \strng{fullhash}{de560a963783f2ff034467a4e3adaae5}
+      \strng{authornamehash}{15d7af87a465c28cff73dfe548e5107e}
+      \strng{authorfullhash}{de560a963783f2ff034467a4e3adaae5}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7781}
+      \field{title}{Anatomy and resilience of the global production ecosystem}
+      \field{volume}{575}
+      \field{year}{2019}
+      \field{pages}{98\bibrangedash 108}
+      \range{pages}{11}
+    \endentry
+    \entry{sampedro2020}{article}{}
+      \name{author}{5}{}{%
+        {{hash=70d2e24741b6c49d9ab353b1be733652}{%
+           family={Sampedro},
+           familyi={S\bibinitperiod},
+           given={Carolina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=df5a54589fe81fc01ab88af26be2de3a}{%
+           family={Pizzitutti},
+           familyi={P\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=783eaaa90e0112ab0d5fd509f7e161b8}{%
+           family={Quiroga},
+           familyi={Q\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=42c22d348f7c8b335120c23c66a29ebc}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Stephen\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=950a6d26b58508e7669113ac48cccc5a}{%
+           family={Mena},
+           familyi={M\bibinitperiod},
+           given={Carlos\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{6d2cf8ca90432cc51f17f068f3dde4f7}
+      \strng{fullhash}{2752a2b9a17e3e2967d0c47019332be3}
+      \strng{authornamehash}{6d2cf8ca90432cc51f17f068f3dde4f7}
+      \strng{authorfullhash}{2752a2b9a17e3e2967d0c47019332be3}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable Agriculture and Food Systems}
+      \field{number}{3}
+      \field{title}{Food supply system dynamics in the Galapagos islands: Agriculture, livestock and imports}
+      \field{volume}{35}
+      \field{year}{2020}
+      \field{pages}{234\bibrangedash 248}
+      \range{pages}{15}
+    \endentry
+    \entry{scalco2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=26cb7e8f6b1956cf0260feaec1b57ffe}{%
+           family={Scalco},
+           familyi={S\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=237ca36bc54fbb69c56fb5c3454e2a9b}{%
+           family={Macdiarmid},
+           familyi={M\bibinitperiod},
+           given={Jennie\bibnamedelima I},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=a26b776b21df7aa043948970206b8d8a}{%
+           family={Craig},
+           familyi={C\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6804d17e6587c186958a887574fb578c}{%
+           family={Whybrow},
+           familyi={W\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ed12f57492a39e6d612c514151d4e641}{%
+           family={Horgan},
+           familyi={H\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{12094b805ff3b98978f54514f549a299}
+      \strng{fullhash}{17f3e6c1bdf6295126e366d540abf21b}
+      \strng{authornamehash}{12094b805ff3b98978f54514f549a299}
+      \strng{authorfullhash}{17f3e6c1bdf6295126e366d540abf21b}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Artificial Societies and Social Simulation}
+      \field{title}{An Agent-Based Model to Simulate Meat Consumption Behaviour of Consumers in Britain}
+      \field{year}{2019}
+    \endentry
+    \entry{seekell2017}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=26f1db91233461a180c43244507343b2}{%
+           family={Seekell},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a228384ecda829ee4e65a0c22e34cadb}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=707347787cd35cb335f1b6c3d98cfd5b}{%
+           family={Dell\x{fffd}\x{fffd}\x{fffd}Angelo},
+           familyi={D\bibinitperiod},
+           given={Jampel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b7244becdc4984efbbdea5b666c4e64c}{%
+           family={D\x{fffd}\x{fffd}\x{fffd}Odorico},
+           familyi={D\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=92560f67a82a1024fc48e03340966c2a}{%
+           family={Fader},
+           familyi={F\bibinitperiod},
+           given={Marianela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8e8df956ad8ea66a7e8da4afe7325ffc}{%
+           family={Gephart},
+           familyi={G\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b05ab9d76a9be5761a4742a6d04c0d7b}{%
+           family={Kummu},
+           familyi={K\bibinitperiod},
+           given={Matti},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dc0ac5f135eca5b78067fa1a76e2c6c9}{%
+           family={Magliocca},
+           familyi={M\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ebe1715b0ab35c095dcbc51679d5ed0e}{%
+           family={Porkka},
+           familyi={P\bibinitperiod},
+           given={Miina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff85fd6cf15d49f751336d8d9d386ba9}{%
+           family={Puma},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{3cb483044e33083fe222974f1aa2f032}
+      \strng{fullhash}{4ce54bc307332204c10d5e70d5fdf889}
+      \strng{authornamehash}{3cb483044e33083fe222974f1aa2f032}
+      \strng{authorfullhash}{4ce54bc307332204c10d5e70d5fdf889}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Research Letters}
+      \field{number}{2}
+      \field{title}{Resilience in the global food system}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{pages}{025010}
+      \range{pages}{1}
+    \endentry
+    \entry{smaldino2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a888f59752d23dd0a2769a2b43469d0e}{%
+           family={Smaldino},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a888f59752d23dd0a2769a2b43469d0e}
+      \strng{fullhash}{a888f59752d23dd0a2769a2b43469d0e}
+      \strng{authornamehash}{a888f59752d23dd0a2769a2b43469d0e}
+      \strng{authorfullhash}{a888f59752d23dd0a2769a2b43469d0e}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7781}
+      \field{title}{Better methods can't make up for mediocre theory.}
+      \field{volume}{575}
+      \field{year}{2019}
+      \field{pages}{9}
+      \range{pages}{1}
+    \endentry
+    \entry{springmann2018}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=8fa113b631ff9c654b550954fa89a409}{%
+           family={Springmann},
+           familyi={S\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=260cd263fca996568d823b0450c97fcc}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c6662b9119b72351e0d9c2fa0cd2f7b2}{%
+           family={Mason-D\x{fffd}\x{fffd}\x{fffd}Croz},
+           familyi={M\bibinithyphendelim D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4a5ff976ba515d222e313a110e87c34d}{%
+           family={Wiebe},
+           familyi={W\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=52340dcb032215f55d8a3c85edc190b0}{%
+           family={Bodirsky},
+           familyi={B\bibinitperiod},
+           given={Benjamin\bibnamedelima Leon},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=4ca54b9d48933e1d4259ccc1258d27ee}{%
+           family={Lassaletta},
+           familyi={L\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2b328f626aa7b01d814f32f10c69814a}{%
+           family={Vries},
+           familyi={V\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=a339ae41710680a0c3418919ce5ec38e}{%
+           family={Vermeulen},
+           familyi={V\bibinitperiod},
+           given={Sonja\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3464aa101b715552fdfec521075e9d8c}{%
+           family={Herrero},
+           familyi={H\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5a402d169d361713cf63c0bba323c6c4}{%
+           family={Carlson},
+           familyi={C\bibinitperiod},
+           given={Kimberly\bibnamedelima M},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{362a91c1af20954622d5d24a00b9a778}
+      \strng{fullhash}{0153893132a8adfd67be940bda3563fe}
+      \strng{authornamehash}{362a91c1af20954622d5d24a00b9a778}
+      \strng{authorfullhash}{0153893132a8adfd67be940bda3563fe}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7728}
+      \field{title}{Options for keeping the food system within environmental limits}
+      \field{volume}{562}
+      \field{year}{2018}
+      \field{pages}{519}
+      \range{pages}{1}
+    \endentry
+    \entry{strogatz1994}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ba37e0c660b6c32eb3d79533ed83ded4}{%
+           family={Strogatz},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima H},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba37e0c660b6c32eb3d79533ed83ded4}
+      \strng{fullhash}{ba37e0c660b6c32eb3d79533ed83ded4}
+      \strng{authornamehash}{ba37e0c660b6c32eb3d79533ed83ded4}
+      \strng{authorfullhash}{ba37e0c660b6c32eb3d79533ed83ded4}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biology, Chemistry and Engineering}
+      \field{title}{Nonlinear dynamics and chaos: with applications to physics}
+      \field{year}{1994}
+      \field{pages}{1}
+      \range{pages}{1}
+    \endentry
+    \entry{strzepek2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=758592029c620534eb6c10543ee6d56f}{%
+           family={Strzepek},
+           familyi={S\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6f12d75890c7760c7f79133c8e0c2a2e}{%
+           family={Boehlert},
+           familyi={B\bibinitperiod},
+           given={Brent},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{bd4bc0ebd171a9742361beb6f51865e3}
+      \strng{fullhash}{bd4bc0ebd171a9742361beb6f51865e3}
+      \strng{authornamehash}{bd4bc0ebd171a9742361beb6f51865e3}
+      \strng{authorfullhash}{bd4bc0ebd171a9742361beb6f51865e3}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B: Biological Sciences}
+      \field{number}{1554}
+      \field{title}{Competition for water for the food system}
+      \field{volume}{365}
+      \field{year}{2010}
+      \field{pages}{2927\bibrangedash 2940}
+      \range{pages}{14}
+    \endentry
+    \entry{suweis2015}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a4afc4895c6e3547b0aad2b3ea06257c}{%
+           family={Suweis},
+           familyi={S\bibinitperiod},
+           given={Samir},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a831121a67a5d56b4c58dd1a37b90604}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={Joel\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cc482a45ac9ec277907a2a62353259b3}{%
+           family={Maritan},
+           familyi={M\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod}}}%
+        {{hash=742d3f004b140f676851b14cd5c16ea5}{%
+           family={Rinaldo},
+           familyi={R\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=852c15d039ff3b1dfa2c5c6b91b34fb6}{%
+           family={D'Odorico},
+           familyi={D\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{41441201a1b926cb0aa570938ee86f75}
+      \strng{fullhash}{3e261495a09a5976f26cc37e9174bedb}
+      \strng{authornamehash}{41441201a1b926cb0aa570938ee86f75}
+      \strng{authorfullhash}{3e261495a09a5976f26cc37e9174bedb}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{22}
+      \field{title}{Resilience and reactivity of global food security}
+      \field{volume}{112}
+      \field{year}{2015}
+      \field{pages}{6902\bibrangedash 6907}
+      \range{pages}{6}
+    \endentry
+    \entry{tendall2015}{article}{}
+      \name{author}{9}{}{%
+        {{hash=1ea1e7325b57156e9b19a2efcdca992f}{%
+           family={Tendall},
+           familyi={T\bibinitperiod},
+           given={DM},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0e327306d7a5f3c0cc76acc328c9c232}{%
+           family={Joerin},
+           familyi={J\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ac7c6632e3c01c247e279452bdddc857}{%
+           family={Kopainsky},
+           familyi={K\bibinitperiod},
+           given={Birgit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=772a536a6d4bf30d68527cb67978a6c0}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2b2b429f5fa364eefd02bbc447e9384a}{%
+           family={Shreck},
+           familyi={S\bibinitperiod},
+           given={Aimee},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ab581d0f02fbd638005dda5d03000e62}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={QB},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=7d68071efab5c353794d16df07bee84d}{%
+           family={Kr\"{u}tli},
+           familyi={K\bibinitperiod},
+           given={Pius},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e89fa57b971f697a60e596b94c1bce8e}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=80e6c8656e0be1cfa00186946e3a5d58}{%
+           family={Six},
+           familyi={S\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b3c0d33de15f60bf862ce0e8c1442e66}
+      \strng{fullhash}{d52638fed857e62660ba00fb9567a1b2}
+      \strng{authornamehash}{b3c0d33de15f60bf862ce0e8c1442e66}
+      \strng{authorfullhash}{d52638fed857e62660ba00fb9567a1b2}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Food Security}
+      \field{title}{Food system resilience: Defining the concept}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{17\bibrangedash 23}
+      \range{pages}{7}
+    \endentry
+    \entry{tu2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7a2940794b4911d83101420ab0146fae}{%
+           family={Tu},
+           familyi={T\bibinitperiod},
+           given={Chengyi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a4afc4895c6e3547b0aad2b3ea06257c}{%
+           family={Suweis},
+           familyi={S\bibinitperiod},
+           given={Samir},
+           giveni={S\bibinitperiod}}}%
+        {{hash=852c15d039ff3b1dfa2c5c6b91b34fb6}{%
+           family={D'Odorico},
+           familyi={D\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{5412319edd9cc4323255e2ea2001f16e}
+      \strng{fullhash}{5412319edd9cc4323255e2ea2001f16e}
+      \strng{authornamehash}{5412319edd9cc4323255e2ea2001f16e}
+      \strng{authorfullhash}{5412319edd9cc4323255e2ea2001f16e}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Sustainability}
+      \field{number}{4}
+      \field{title}{Impact of globalization on the resilience and sustainability of natural resources}
+      \field{volume}{2}
+      \field{year}{2019}
+      \field{pages}{283}
+      \range{pages}{1}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -1,0 +1,24 @@
+[0] Config.pm:354> INFO - This is Biber 2.7 (beta)
+[0] Config.pm:357> INFO - Logfile is 'cfs-model-manuscript.blg'
+[27] biber:303> INFO - === Fri Jun 26, 2020, 11:50:31
+[40] Biber.pm:360> INFO - Reading 'cfs-model-manuscript.bcf'
+[105] Biber.pm:836> INFO - Found 26 citekeys in bib section 0
+[117] Biber.pm:3671> INFO - Processing section 0
+[130] Biber.pm:3841> INFO - Looking for bibtex format file 'cfs-model-refs.bib' for section 0
+[132] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
+[139] bibtex.pm:1281> INFO - Found BibTeX data source 'cfs-model-refs.bib'
+[210] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[210] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[210] Biber.pm:3500> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[210] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
+[238] bbl.pm:608> INFO - Writing 'cfs-model-manuscript.bbl' with encoding 'ascii'
+[241] Utils.pm:164> WARN - The entry 'bene2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[243] Utils.pm:164> WARN - The entry 'gao2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[244] Utils.pm:164> WARN - The entry 'hammond2012' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[245] Utils.pm:164> WARN - The entry 'marchand2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[248] Utils.pm:164> WARN - The entry 'nystrom2019' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[250] Utils.pm:164> WARN - The entry 'seekell2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[252] Utils.pm:164> WARN - The entry 'springmann2018' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[254] Utils.pm:164> WARN - The entry 'tendall2015' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[255] bbl.pm:712> INFO - Output to cfs-model-manuscript.bbl
+[255] Biber.pm:110> INFO - WARNINGS: 8
