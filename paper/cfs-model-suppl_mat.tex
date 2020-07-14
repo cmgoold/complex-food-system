@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+%\usepackage{mathptmx}    % times with math
+%\usepackage{pxfonts}
+%\usepackage[sc]{mathpazo}
+\usepackage[T1]{fontenc}
+
+\usepackage{authblk}
+\usepackage{lineno}
+\usepackage{graphicx}
+\linespread{1.15}
+
+\newcommand{\nf}[1]{\text{#1}}
+
+\usepackage[
+  backend=biber,
+  citestyle = authoryear,
+  bibstyle = authoryear,
+  firstinits=true,
+  uniquename=false
+  ]{biblatex}
+\addbibresource{cfs-model-refs.bib}
+
+
+\graphicspath{{/home/conor/Dropbox/Leeds_postdoc/Papers/cfs-model/paper/figures/}}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=false,
+  citecolor=blue
+}
+
+% redefine abstract environment
+\renewenvironment{abstract}
+{\begin{quote}
+\small
+\noindent \rule{\linewidth}{.5pt}\par{\bfseries \abstractname.}}
+{\medskip\noindent \rule{\linewidth}{.5pt}
+\end{quote}
+}
+
+\usepackage[textfont=it, labelfont=bf]{caption}
+
+\title{A model of national-level food system security:\\ supplementary material}
+\author[1]{Conor Goold}
+\affil[1]{Faculty of Biological Sciences, University of Leeds, LS2 9JT, UK}
+\date{}
+
+\begin{document}
+\linenumbers
+\modulolinenumbers[5]
+
+\section{Linear stability analysis}
+
+\end{document}

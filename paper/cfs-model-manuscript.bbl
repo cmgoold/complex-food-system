@@ -19,6 +19,59 @@
 
 \refsection{0}
   \sortlist[entry]{nyt/global/}
+    \entry{AHDBeuroexhange2015}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7163c0c85e2b67876411facf5879d5b9}{%
+           family={AHDB},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{fullhash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{authornamehash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{authorfullhash}{7163c0c85e2b67876411facf5879d5b9}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pork.ahdb.org.uk/prices-stats/news/2015/august/how-does-the-exchange-rate-affect-the-gb-pig-price/}}
+      \field{note}{Accessed: 2020-07-08}
+      \field{title}{{How does the exchange rate affect the GB pig price?}}
+      \field{year}{2015}
+    \endentry
+    \entry{allen2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2e779b142df0ad6259ba9fbe17d5b85e}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=09e3c7c7cc7b92a7ef4966b83e1a1642}{%
+           family={Prosperi},
+           familyi={P\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4e5267450378bbc5a70cf984ac88f780}
+      \strng{fullhash}{4e5267450378bbc5a70cf984ac88f780}
+      \strng{authornamehash}{4e5267450378bbc5a70cf984ac88f780}
+      \strng{authorfullhash}{4e5267450378bbc5a70cf984ac88f780}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Management}
+      \field{number}{5}
+      \field{title}{Modeling sustainable food systems}
+      \field{volume}{57}
+      \field{year}{2016}
+      \field{pages}{956\bibrangedash 975}
+      \range{pages}{20}
+    \endentry
     \entry{barrett2010}{article}{}
       \name{author}{1}{}{%
         {{hash=09f0c6940cb6971e7a5f0b4fa591055a}{%
@@ -134,6 +187,71 @@
       \field{year}{2003}
       \field{pages}{3531\bibrangedash 3535}
       \range{pages}{5}
+    \endentry
+    \entry{chung2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=31c5240d0d2d59e9ade7cf441061ab69}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Bonhee},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{31c5240d0d2d59e9ade7cf441061ab69}
+      \strng{fullhash}{31c5240d0d2d59e9ade7cf441061ab69}
+      \strng{authornamehash}{31c5240d0d2d59e9ade7cf441061ab69}
+      \strng{authorfullhash}{31c5240d0d2d59e9ade7cf441061ab69}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Systems Research and Behavioral Science}
+      \field{number}{3}
+      \field{title}{System Dynamics Modelling and Simulation of the Malaysian Rice Value Chain: Effects of the Removal of Price Controls and an Import Monopoly on Rice Prices and Self-sufficiency Levels in Malaysia}
+      \field{volume}{35}
+      \field{year}{2018}
+      \field{pages}{248\bibrangedash 264}
+      \range{pages}{17}
+    \endentry
+    \entry{deGoede2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cf3214e80ad4c58fab7014e57784c058}{%
+           family={De\bibnamedelima Goede},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={DM},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ee106872103ee42a407af7d6ec162e9c}{%
+           family={Gremmen},
+           familyi={G\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=24897212b8e00ca2bcae73ab725c103b}{%
+           family={Blom-Zandstra},
+           familyi={B\bibinithyphendelim Z\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{864478c618f76dd9234c4fca92f20313}
+      \strng{fullhash}{864478c618f76dd9234c4fca92f20313}
+      \strng{authornamehash}{864478c618f76dd9234c4fca92f20313}
+      \strng{authorfullhash}{864478c618f76dd9234c4fca92f20313}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NJAS-Wageningen Journal of Life Sciences}
+      \field{title}{Robust agriculture: Balancing between vulnerability and stability}
+      \field{volume}{64}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
     \endentry
     \entry{drimie2013}{article}{}
       \name{author}{2}{}{%
@@ -406,6 +524,34 @@
       \field{pages}{700\bibrangedash 721}
       \range{pages}{22}
     \endentry
+    \entry{legrand2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d00ea5cc04df6977872f25fa6a2fc12c}{%
+           family={Legrand},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{d00ea5cc04df6977872f25fa6a2fc12c}
+      \strng{fullhash}{d00ea5cc04df6977872f25fa6a2fc12c}
+      \strng{authornamehash}{d00ea5cc04df6977872f25fa6a2fc12c}
+      \strng{authorfullhash}{d00ea5cc04df6977872f25fa6a2fc12c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Surveys}
+      \field{number}{2}
+      \field{title}{The empirical merit of structural explanations of commodity price volatility: Review and perspectives}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{pages}{639\bibrangedash 664}
+      \range{pages}{26}
+    \endentry
     \entry{marchand2016}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -537,6 +683,58 @@
       \field{pages}{638\bibrangedash 641}
       \range{pages}{4}
     \endentry
+    \entry{meadows1971}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2aeef2b254681caa2023811cd0602677}{%
+           family={Meadows},
+           familyi={M\bibinitperiod},
+           given={Dennis\bibnamedelima L},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge, Mass.: Wright-Allen Press}%
+      }
+      \strng{namehash}{2aeef2b254681caa2023811cd0602677}
+      \strng{fullhash}{2aeef2b254681caa2023811cd0602677}
+      \strng{authornamehash}{2aeef2b254681caa2023811cd0602677}
+      \strng{authorfullhash}{2aeef2b254681caa2023811cd0602677}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dynamics of commodity production cycles.}
+      \field{title}{Dynamics of commodity production cycles.}
+      \field{year}{1971}
+    \endentry
+    \entry{nerlove1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2a0b56322002bd1935e3822b3e68c4b5}{%
+           family={Nerlove},
+           familyi={N\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{2a0b56322002bd1935e3822b3e68c4b5}
+      \strng{fullhash}{2a0b56322002bd1935e3822b3e68c4b5}
+      \strng{authornamehash}{2a0b56322002bd1935e3822b3e68c4b5}
+      \strng{authorfullhash}{2a0b56322002bd1935e3822b3e68c4b5}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{2}
+      \field{title}{Adaptive expectations and cobweb phenomena}
+      \field{volume}{72}
+      \field{year}{1958}
+      \field{pages}{227\bibrangedash 240}
+      \range{pages}{14}
+    \endentry
     \entry{ngonghala2017}{article}{}
       \name{author}{6}{}{%
         {{hash=b7b6ecf30f79f66d7ad6a12e6f0fcd93}{%
@@ -657,6 +855,62 @@
       \field{year}{2019}
       \field{pages}{98\bibrangedash 108}
       \range{pages}{11}
+    \endentry
+    \entry{ottoday2011}{book}{}
+      \name{author}{2}{}{%
+        {{hash=df2e5e12f50a68593635b5459131f7ac}{%
+           family={Otto},
+           familyi={O\bibinitperiod},
+           given={Sarah\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=865f1156ac0e44c35d39b4b3f5f91da1}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Troy},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{48be1b77102736b0063788adfbd6e8fc}
+      \strng{fullhash}{48be1b77102736b0063788adfbd6e8fc}
+      \strng{authornamehash}{48be1b77102736b0063788adfbd6e8fc}
+      \strng{authorfullhash}{48be1b77102736b0063788adfbd6e8fc}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A biologist's guide to mathematical modeling in ecology and evolution}
+      \field{year}{2011}
+    \endentry
+    \entry{pimm1984}{article}{}
+      \name{author}{1}{}{%
+        {{hash=84857453c22a3f49ef462303dcd60836}{%
+           family={Pimm},
+           familyi={P\bibinitperiod},
+           given={Stuart\bibnamedelima L},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{84857453c22a3f49ef462303dcd60836}
+      \strng{fullhash}{84857453c22a3f49ef462303dcd60836}
+      \strng{authornamehash}{84857453c22a3f49ef462303dcd60836}
+      \strng{authorfullhash}{84857453c22a3f49ef462303dcd60836}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{5949}
+      \field{title}{The complexity and stability of ecosystems}
+      \field{volume}{307}
+      \field{year}{1984}
+      \field{pages}{321\bibrangedash 326}
+      \range{pages}{6}
     \endentry
     \entry{sampedro2020}{article}{}
       \name{author}{5}{}{%
@@ -847,6 +1101,32 @@
       \field{pages}{9}
       \range{pages}{1}
     \endentry
+    \entry{smaldino2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bbe5df0c293c8e38df2284dab3fdd9cd}{%
+           family={Smaldino},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima E},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge New York, NY}%
+      }
+      \strng{namehash}{bbe5df0c293c8e38df2284dab3fdd9cd}
+      \strng{fullhash}{bbe5df0c293c8e38df2284dab3fdd9cd}
+      \strng{authornamehash}{bbe5df0c293c8e38df2284dab3fdd9cd}
+      \strng{authorfullhash}{bbe5df0c293c8e38df2284dab3fdd9cd}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational social psychology}
+      \field{title}{Models are stupid, and we need more of them}
+      \field{year}{2017}
+      \field{pages}{311\bibrangedash 331}
+      \range{pages}{21}
+    \endentry
     \entry{springmann2018}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -923,6 +1203,29 @@
       \field{year}{2018}
       \field{pages}{519}
       \range{pages}{1}
+    \endentry
+    \entry{sterman2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=173940384ad18c106cb64330f8567a0f}{%
+           family={Sterman},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Irwin/McGraw-Hill c2000..}%
+      }
+      \strng{namehash}{173940384ad18c106cb64330f8567a0f}
+      \strng{fullhash}{173940384ad18c106cb64330f8567a0f}
+      \strng{authornamehash}{173940384ad18c106cb64330f8567a0f}
+      \strng{authorfullhash}{173940384ad18c106cb64330f8567a0f}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Business dynamics}
+      \field{year}{2000}
     \endentry
     \entry{strogatz1994}{article}{}
       \name{author}{1}{}{%

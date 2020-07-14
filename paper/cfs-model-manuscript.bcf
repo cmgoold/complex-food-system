@@ -2164,15 +2164,33 @@
     <bcf:citekey order="18">sampedro2020</bcf:citekey>
     <bcf:citekey order="19">suweis2015</bcf:citekey>
     <bcf:citekey order="20">scalco2019</bcf:citekey>
-    <bcf:citekey order="21">suweis2015</bcf:citekey>
-    <bcf:citekey order="22">tu2019</bcf:citekey>
-    <bcf:citekey order="23">gao2016</bcf:citekey>
-    <bcf:citekey order="24">ngonghala2017</bcf:citekey>
-    <bcf:citekey order="25">smaldino2019</bcf:citekey>
-    <bcf:citekey order="26">may1973</bcf:citekey>
-    <bcf:citekey order="27">boyd2003</bcf:citekey>
-    <bcf:citekey order="28">kermack1927</bcf:citekey>
-    <bcf:citekey order="29">strogatz1994</bcf:citekey>
+    <bcf:citekey order="21">allen2016</bcf:citekey>
+    <bcf:citekey order="22">suweis2015</bcf:citekey>
+    <bcf:citekey order="23">tu2019</bcf:citekey>
+    <bcf:citekey order="24">gao2016</bcf:citekey>
+    <bcf:citekey order="25">ngonghala2017</bcf:citekey>
+    <bcf:citekey order="26">smaldino2017</bcf:citekey>
+    <bcf:citekey order="27">smaldino2019</bcf:citekey>
+    <bcf:citekey order="28">may1973</bcf:citekey>
+    <bcf:citekey order="29">boyd2003</bcf:citekey>
+    <bcf:citekey order="30">kermack1927</bcf:citekey>
+    <bcf:citekey order="31">nerlove1958</bcf:citekey>
+    <bcf:citekey order="32">strogatz1994</bcf:citekey>
+    <bcf:citekey order="33">meadows1971</bcf:citekey>
+    <bcf:citekey order="34">sterman2000</bcf:citekey>
+    <bcf:citekey order="35">meadows1971</bcf:citekey>
+    <bcf:citekey order="36">sterman2000</bcf:citekey>
+    <bcf:citekey order="37">meadows1971</bcf:citekey>
+    <bcf:citekey order="38">chung2018</bcf:citekey>
+    <bcf:citekey order="39">ngonghala2017</bcf:citekey>
+    <bcf:citekey order="40">AHDBeuroexhange2015</bcf:citekey>
+    <bcf:citekey order="41">tu2019</bcf:citekey>
+    <bcf:citekey order="42">sterman2000</bcf:citekey>
+    <bcf:citekey order="43">legrand2019</bcf:citekey>
+    <bcf:citekey order="44">deGoede2013</bcf:citekey>
+    <bcf:citekey order="45">strogatz1994</bcf:citekey>
+    <bcf:citekey order="46">pimm1984</bcf:citekey>
+    <bcf:citekey order="47">ottoday2011</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
