@@ -2,7 +2,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Theoretical model}{3}{section.2}
+\contentsline {section}{\numberline {2}Theoretical model}{4}{section.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Model analysis}{8}{section.3}
 \defcounter {refsection}{0}\relax 
@@ -10,8 +10,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}With international trade}{8}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Application: the UK pig industry}{9}{section.4}
+\contentsline {subsubsection}{\numberline {3.2.1}Unsustainable domestic production}{9}{subsubsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Model estimation}{9}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Sustainable domestic production}{9}{subsubsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Discussion}{9}{section.5}
+\contentsline {section}{\numberline {4}Application: the UK pig industry}{11}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Model estimation}{11}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Discussion}{11}{section.5}

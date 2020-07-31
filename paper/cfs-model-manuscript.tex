@@ -6,11 +6,15 @@
 %\usepackage{pxfonts}
 %\usepackage[sc]{mathpazo}
 \usepackage[T1]{fontenc}
-
+\usepackage{subcaption}
+\usepackage[font={footnotesize,it}]{caption}
 \usepackage{authblk}
 \usepackage{lineno}
 \usepackage{graphicx}
 \linespread{1.15}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{DRAFT}
 
 \newcommand{\nf}[1]{\text{#1}}
 
@@ -43,9 +47,10 @@
 
 \usepackage[textfont=it, labelfont=bf]{caption}
 
-\title{A model of national-level food system security}
+\title{A stylised model of national-level food system security}
 \author[1]{Conor Goold}
 \affil[1]{Faculty of Biological Sciences, University of Leeds, LS2 9JT, UK}
+\author{et al.}
 \date{}
 
 \begin{document}
@@ -54,7 +59,7 @@
 
 \maketitle
 \begin{abstract}
-  Global food security is threatened by various endogeneous and exogeneous, biotic and abiotic factors, including a rising human population, higher population densities, price volatility and climate change. Perturbations to the global food system have a direct effect on the security and resilience food systems. These effects are felt, in different ways, by both producers, processors and consumers. Various mathematical and computational models exist to understand food systems' responses to shocks and stresses, but most models are tailored to making predictions of specific food systems and contexts. Here, we present and analyse a stylised mathematical model of a national-level food system that incorporates dynamic interactions between domestic production of a food commodity, international trade, domestic demand and consumption, and food commodity price. The model exhibits two dominant modes of behaviour, unsustainable and sustainable domestic production, the stabilty of which depends on a balance between the strength of internationa trade and local production costs. As an example, we fit our dynamic systems model to data from the UK pig industry using Bayesian estimation.\\
+  Global food security is threatened by various endogeneous and exogeneous, biotic and abiotic factors, including a rising human population, higher population densities, price volatility and climate change. Perturbations to the global food system have a direct effect on the security and resilience national-level food systems. These effects are felt, in different ways, by both producers, processors and consumers. Various mathematical and computational models exist to understand food systems' responses to shocks and stresses, but most models are tailored to making predictions of specific food systems and are large, high-dimensional models that make uncovering general theoretical food system insights problematic. Here, we present a stylised mathematical model of a national-level food system that incorporates dynamic interactions between domestic production of a food commodity, international trade, domestic demand and consumption, and food commodity price. The model's simplicity allows predicting when domestic production is sustainable when international trade flows are present. Sustainability of domestic production depends on a critical ratio of $i)$ profitability of domestic production to $ii)$ the strength of international trade weighted by the production capacity of domestic production (e.g. capital growth rate and depreciation rates). When the critical ratio exceeds 1, meaning domestic production is sustainable, international imports will either be required to supplement domestic production to meet demand, or domestic production will be profitable enough to produce a surplus of inventory that can be exported. We use the dynamic food systems model to infer the critical parameter values from data from the UK pig industry [...maybe other examples...].\\
 \end{abstract}
 
 \newpage
@@ -65,7 +70,7 @@ Food security is defined as ``when all people at all times have physical and eco
 
 Food system research is inherently transdisciplinary (\cite{drimie2013}; \cite{hammond2012}), of which one strand is computational and mathematical modelling. The utility of quantitative modelling is the ability to build and perturb realistic `systems models' of food systems to project important outcomes, such as food production levels, farmer profitability, envirnomental degradation, food waste, and consumer behaviour (e.g. \cite{springmann2018}; \cite{marchand2016}; \cite{sampedro2020}; \cite{suweis2015}; \cite{scalco2019}; \cite{allen2016}). The difficulty in modelling food systems is their complexity, frequently resulting in large models with tens to hundreds of parameters and variables, which are challenging to analyse and even more challenging to statistically estimate from noisy real-world data. In contrast, a handful of authors have used relatively simple, theoretical models that are more amenable to formal analysis, and have fewer parameters to estimate from data sources, to understand the activities of food systems. For example, \textcite{suweis2015} link population dynamics to food availability and international trade using a generalised logistic model. \textcite{tu2019} recently reported that the global food system is approaching a critical point deliminating collapse into an unsustainable regime by condensing the multi-dimensional global food trade network into a bistable one-dimensional system (using the framework of \cite{gao2016}). Simple models of coupled ecological, economic and agricultural processes have also been investigated. For instance, \textcite{ngonghala2017} explain the emergence of poverty traps, which have direct effects on individual's access to food, by coupling differential equations of human poverty, human disease, and economic growth.
 
-Simplified models of complex systems elicit causal explanations and generate hypotheses of how systems work (\cite{smaldino2017}; \cite{smaldino2019}). Such \textit{stylised} models are staples of scientific disciplines such as ecology (\cite{may1973}), evolutionary biology (\cite{boyd2003}), epidemiology (\cite{kermack1927}), economics (\cite{nerlove1958}), and physics (\cite{strogatz1994}). Food systems research, however, lacks such foundational models. A potential candidate is research on commodity production cycles that has developed models to couple agricultural production, supply chains, consumer demand, price and human decision-making, such as \textcite{meadows1971}. These approaches have inspired systems dynamics modelling of general commodity and business cycles (\cite{sterman2000}). However, applications of systems dynamics models of commodity cycles are frequently high dimensional, encoding multiple modes of behaviour that are not easily amenable to standard mathematical analysis. Gaining greater theoretical insight into the dynamics of food systems and food security would be aided by simpler models of coupled agri-food systems.
+Simplified models of complex systems elicit causal explanations and generate hypotheses of how systems work (\cite{smaldino2017}; \cite{smaldino2019}; \cite{otto2020}). Such \textit{stylised} models are staples of scientific disciplines such as ecology (\cite{may1973}), evolutionary biology (\cite{boyd2003}), epidemiology (\cite{kermack1927}), economics (\cite{nerlove1958}), and physics (\cite{strogatz1994}). Food systems research, however, lacks such foundational models. A potential candidate is research on commodity production cycles that has developed models to couple agricultural production, supply chains, consumer demand, price and human decision-making, such as \textcite{meadows1971}. These approaches have inspired systems dynamics modelling of general commodity and business cycles (\cite{sterman2000}). However, applications of systems dynamics models of commodity cycles are frequently high dimensional, encoding multiple modes of behaviour that are not easily amenable to standard mathematical analysis. Gaining greater theoretical insight into the dynamics of food systems and food security would be aided by simpler models of coupled agri-food systems.
 
 In this paper, we develop and analyse a stylised model of a food system inspired by the systems dynamics modelling of \textcite{meadows1971} and \cite{sterman2000}, but simple enough to offer general theoretical results. To limit our scope, we focus on modelling a national-level food system, where the effects of international trade on domestic production is examined. Like the stylised models used to understand the causal processes in evolution, epidemics, and ecological interactions, our approach necessarily ignores many important features of real food systems. Nonetheless, the simplicity of our model allows us to elucidate the precise conditions under which different stable modes of behaviour important to food security emerge in our system. As an example application, we apply our model to national-level data from the UK pig industry using Bayesian estimation.
 
@@ -193,7 +198,7 @@ where $\{v, x, y, z\}$ now represent the dimensionless state variables, $\tau$ i
 \end{table}
 
 \section{Model analysis}
-While the mechanisms represented by the model are simple, it still comprises a four dimensional system of non-linear equations, of which there are no explict solutions. Nontheless, its dynamics can be summarised by investigating its stable modes of behaviour. To investigate stability, we conduct linear stability analyses (\cite{strogatz1994}). Linear stability analysis is based on a Taylor series expansion in multiple variables around the fixed points, where asymptotic (i.e. $t \rightarrow \infty$) stability to small perturbations can be inferred when the real part of the eigenvalues of the system's matrix of partial derivatives (the Jacobian matrix representing the linearisation around the fixed points) evaluated at each equilibrium are negative. Notably, the inverse of the leading eigenvalue of the Jacobian matrix determines the `characteristic return time' of the system, with more resilient systems returning more quickly to their equilibria following a disturbance (\cite{pimm1984}).
+While the mechanisms represented by the model are simple, it still comprises a four dimensional system of non-linear equations, of which there are no explict solutions. Nontheless, its dynamics can be summarised by investigating its stable modes of behaviour. To investigate stability, we conduct linear stability analyses (\cite{strogatz1994}). Linear stability analysis is based on a Taylor series expansion in multiple variables around the fixed points ($\{\hat{v}, \hat{x}, \hat{y}, \hat{z}\}$), where asymptotic (i.e. $t \rightarrow \infty$) stability to small perturbations can be inferred when the real part of the eigenvalues of the system's matrix of partial derivatives (the Jacobian matrix representing the linearisation around the fixed points) evaluated at each equilibrium are negative. Notably, the inverse of the leading eigenvalue of the Jacobian matrix determines the `characteristic return time' of the system, with more resilient systems returning more quickly to their equilibria following a disturbance (\cite{pimm1984}).
 
 \subsection{Without international trade}
 When international trade is not present (i.e. $\kappa = 0$), there is one stable fixed point of the system given by the state variable values $\big \{\frac{\alpha(2\omega + \gamma)}{2 \delta (1 + \beta)}, \frac{\alpha}{1 + \beta}, \frac{\alpha}{1 + \beta}, \frac{1 + \beta}{\alpha}\big\}$. Another fixed point is where all state values are 0 (i.e. no industry). Conducting a linear stability analysis around the the latter fixed point, the eigenvalues of the Jacobian matrix at this equilibria are $\{(-1 - \beta), - \omega, - \mu, - \rho)\}$.
@@ -214,7 +219,9 @@ The Jacbobian matrix ($\boldsymbol{J}$) at this equilibria evalutes to:
 \fi
 
 \subsection{With international trade}
-When $\kappa > 0$, international trade is possible, opening the possibility of competition between domestic and international products, or of an export market for domestic production. An unstable equilibria still exists where all state variables are 0. However, in addition, there is an unsustainable domestic production equilibria, where the food system is viable overall through complete reliance on international imports.
+When $0 < \kappa < 1$, international trade is possible, opening the possibility of competition between domestic and international products, or of an export market for domestic production. An unstable equilibria still exists where all state variables are 0. However, in addition, there is 1) an unsustainable domestic production equilibrium, where the food system is viable overall through complete reliance on international imports, and 2) a sustainable domestic production equilibrium, where the profitability of the domestic industry is high enough to compete with international trade.
+
+\subsubsection{Unsustainable domestic production}
 
 The unsustainable domestic production equilibria is given by the set of fixed points $\{0, \frac{\kappa \gamma}{\omega + \frac{\gamma}{2}}, \frac{\kappa \gamma}{\omega + \frac{\gamma}{2}}, \frac{\omega + \frac{\gamma}{2}}{\kappa \gamma}\}$. The Jacbobian matrix ($\boldsymbol{J}$) at this equilibria evalutes to:
 
@@ -234,19 +241,56 @@ and its eigenvalues ($\boldsymbol{\lambda}$) are the roots of the fourth-degree 
   \Big(\frac{\alpha(\omega + \frac{\gamma}{2})}{\kappa \gamma} - 1 - \beta - \lambda\Big) \Big[ - \lambda^3 + \big(-\omega - \frac{\gamma}{4} - \mu\big) \lambda^2 + \big(- \mu(\omega + \rho) - \frac{\gamma}{4}\big) \lambda - \frac{\gamma}{2} \mu \rho\Big] = 0
 \end{equation}
 %
-The first eigenvalue is easy to determine:
+The first eigenvalue can be determined directly as:
 
 \begin{equation}
   \lambda_{1} = \frac{\alpha(\omega + \frac{\gamma}{2})}{\kappa \gamma} - 1 - \beta
 \end{equation}
 %
-and by using the Routh-Hurwitz conditions, we can assess the sign of the remaning eigenvalues' real parts (\cite{ottoday2011}). As it turns out, all other eigenvalues will always be negative (see the supplementary materials), and the non-sustainable domestic production mode will be stable if:
+By using the Routh-Hurwitz conditions, the sign of the remaning eigenvalues' real parts (\cite{ottoday2011}) will always be negative (see the supplementary materials). Ultimately, the unsustainable domestic production mode will be stable if:
 
 \begin{equation}
-  1 < \frac{ \kappa \gamma(1+\beta)}{ \alpha (\omega + \frac{\gamma}{2})}
+  \frac{ \alpha (\omega + \frac{\gamma}{2})}{\kappa \gamma(1+\beta)} < 1
 \end{equation}
 %
-The previous term is not the easiest to discern, but by perturbing the individual parameters it depends on (see Figure S1), the most influential parameters are $\alpha$, $\kappa$ and $\beta$. Figure 1a illustrates the bifurcation diagram of the system, where when the previous term is greater than 1, domestic production of capital is sustainable. Figures 1a-c demonstrate the two stable modes of behaviour in $(\kappa, \alpha)$ space for differing values of $\beta$.
+The previous `critical ratio' can be loosely interpreted as a balance between $i$) the profitability of domestic production, weighted by both the wastage rate and capital growth rate, and $ii$) the strength of international trade, weighted by the domestic capital growth rate and domestic capital depreciation rate. The most influential parameters dictating the critical ratio's value are $\alpha$, $\kappa$ and $\beta$ (see Figure S1), where increases in $\alpha$ (the ratio of reference price to cost of production) increase the critical ratio, but increases in $\kappa$ (strength of trade) and $\beta$ (capital depreciation rate to growth rate ratio) decrease the critical ratio. Figure 1a illustrates the bifurcation diagram of the system as a function of $\alpha$.
+
+\begin{figure}[t!]
+  \begin{subfigure}{0.5\textwidth}
+      \includegraphics[scale=0.7]{figure_2a.png}
+  \end{subfigure}%
+  ~%
+  \begin{subfigure}{0.5\textwidth}
+      \includegraphics[scale=0.7]{figure_2b.png}
+  \end{subfigure}
+
+  \begin{subfigure}{0.5\textwidth}
+      \includegraphics[scale=0.7]{figure_2c.png}
+  \end{subfigure}%
+  ~%
+  \begin{subfigure}{0.5\textwidth}
+      \includegraphics[scale=0.7]{figure_2d.png}
+  \end{subfigure}%
+
+  \caption{Stable modes of the model incorporating international trade ($0 < \kappa < 1$). Panel a shows the bifurcation diagram between stable (solid blue) and unstable (dashed black) behaviours (with $\beta$, $\gamma = 26$, $\omega = 10$, $\kappa = 0.5$, $\delta = 5$). Panels b-d show the stable modes of behaviour in ($\kappa, \alpha$) space for differing values of $\beta$ (b = 0.1, c = 0.6, d = 1), distinguishing between unsustianable (red), sustainable with imports (blue), and sustainable with exports (green) behaviours. Panels b-d are produced with the remaining parameters at $\gamma = 26$, $\omega = 10$ and $\delta = 5$.}
+  \label{figure2}
+\end{figure}
+
+\subsubsection{Sustainable domestic production}
+
+When the critical ratio exceeds 1, the sustainable domestic production equilibrium is given by $\{\frac{2 \gamma \kappa (- 1 - \beta) + \alpha (\gamma + 2 \omega)}{2 \delta (1+\beta)(1 - \kappa) }, \frac{\alpha}{1 + \beta}, \frac{\alpha}{1 + \beta}, \frac{1 + \beta}{\alpha}\}$. In the latter case, the equilibrium values of inventory, demand and price are the same as the equilibrium values of the model without international trade (see above), determined by the profitability of the domestic industry and the ratio of capital depreciation and growth rates. The equilibrium value of capital is similar to the equilibrium value found in the model without international trade, but now increased by both the odds of international trade (i.e. $\frac{\kappa}{1-\kappa}$) but decreased by the term $ - 1 - \beta$, which is always negative for $\beta > 0$.
+The two equilibria are equal when $\kappa = 0$. Thus, if the critical ratio $> 1$ and domestic production is sustainable, trade strength alone has a positive effect on domestic capital keeping other parameters constant.
+
+The latter result can also be viewed as a balance between two separate modes of behaviour: either domestic production will produce a surplus of inventory, allowing exports of domestic capital dependent on the value of $\kappa$, or domestic inventory needs to be supplemented by international imports to meet demand. Domestic capital will produce a surplus when $\frac{\gamma}{\delta} - \hat{v} < 0$, or when:
+
+\begin{equation}
+  \alpha > \frac{2 \gamma (1 + \beta)}{\gamma + 2 \omega}
+\end{equation}
+%
+Figures 1b-d demonstrate the relationship between the sustainable and unsustainable stable modes of behaviour in $(\kappa, \alpha)$ space for differing values of $\beta$, as well as the distinction between the sustainable state supplemented by imports, and the sustainable state requiring domestic production to be exported.
+
+
+
 
 \section{Application: the UK pig industry}
 

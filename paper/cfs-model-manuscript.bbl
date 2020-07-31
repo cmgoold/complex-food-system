@@ -884,6 +884,39 @@
       \field{title}{A biologist's guide to mathematical modeling in ecology and evolution}
       \field{year}{2011}
     \endentry
+    \entry{otto2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=df2e5e12f50a68593635b5459131f7ac}{%
+           family={Otto},
+           familyi={O\bibinitperiod},
+           given={Sarah\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5dd567208567cb96c40456cdf1449de5}{%
+           family={Rosales},
+           familyi={R\bibinitperiod},
+           given={Alirio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press Chicago, IL}%
+      }
+      \strng{namehash}{0c7964c1101bef4db26457c143796af4}
+      \strng{fullhash}{0c7964c1101bef4db26457c143796af4}
+      \strng{authornamehash}{0c7964c1101bef4db26457c143796af4}
+      \strng{authorfullhash}{0c7964c1101bef4db26457c143796af4}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Naturalist}
+      \field{number}{2}
+      \field{title}{Theory in service of narratives in evolution and ecology}
+      \field{volume}{195}
+      \field{year}{2020}
+      \field{pages}{290\bibrangedash 299}
+      \range{pages}{10}
+    \endentry
     \entry{pimm1984}{article}{}
       \name{author}{1}{}{%
         {{hash=84857453c22a3f49ef462303dcd60836}{%

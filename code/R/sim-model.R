@@ -3,26 +3,26 @@ source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/linear-stability-analysis-
 
 # set the parameters
 a <- 1/52
-b <- 400
+b <- 80
 e <- 1/(2.5*52)
 f <- 1/52
-g <- 110*24
-k <- 0.01
+g <- 110*24*0.75
+k <- 0.8
 h <- 30e6
 w <- 0.3
-m <- 1/5
-q <- 10
-r <- 1/2
+m <- 1/10
+q <- 150
+r <- 1/20
 s <- 1
 C_init <- 100e3
 I_init <- 30e6
-D_init <- 30e3
-P_init <- 100
+D_init <- 30e6
+P_init <- 140
 
 states <- c(C = C_init, I = I_init, D = D_init, P = P_init)
 
 dt <- 0.01
-t <- seq(0, 52*300, dt)
+t <- seq(0, 52*50, dt)
 
 run_cfs <- as.data.frame(
   deSolve::ode(
@@ -60,9 +60,12 @@ that <- t/(1/a)
 
 states_nd <- c(Chat=Chat, Ihat=Ihat, Dhat=Dhat, Phat=Phat)
 
+#cr(alpha = alpha, kappa = kappa, gamma = gamma, beta = beta, omega = omega)
+
 alpha_critical(p_list = list(beta=beta, kappa=kappa, gamma=gamma, omega=omega))
 kappa_critical(p_list = list(alpha=alpha, gamma=gamma, beta=beta, omega=omega))
 get_fixed_points(p_list = list(alpha=alpha, beta=beta, kappa=kappa, gamma=gamma, omega=omega, delta=delta))
+2 * gamma * (1 + beta)/(gamma + 2*omega) # if alpha > alpha_critical, and if alpha this value domestic production exceeds reference demand (exports)
 
 run_cfs_nd <- as.data.frame(
   deSolve::ode(
@@ -75,6 +78,8 @@ run_cfs_nd <- as.data.frame(
 )
 
 run_cfs_nd[nrow(run_cfs_nd), ]
+
+plot(gamma - delta*run_cfs_nd$Chat, type="l")
 
 par(mfrow=c(2,2))
 plot(run_cfs_nd$time, run_cfs_nd$Chat, type="l", bty="l")
