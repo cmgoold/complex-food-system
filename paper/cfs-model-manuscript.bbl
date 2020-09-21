@@ -261,6 +261,77 @@
       \field{pages}{3531\bibrangedash 3535}
       \range{pages}{5}
     \endentry
+    \entry{carpenter2017}{article}{}
+      \name{author}{10}{}{%
+        {{hash=5321a7ac2b0407bc405fa8816fd73f09}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f7331779b52e0ecf23ce0fe45ac710b3}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Matthew\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=fb04571d965766ee6d71dafbd3eb452e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9cc812cde8c441e79dfaab4955a72c2c}{%
+           family={Goodrich},
+           familyi={G\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1982fa604a3f94837efceaa53330b2a4}{%
+           family={Betancourt},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13e542215366001a04c3d21163d79458}{%
+           family={Brubaker},
+           familyi={B\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=41eee90a96d38ce11a198e6c0aeb415f}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Jiqiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=137297e0019ba55bca6f9b200782ae52}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6f0d8885ad4c012b0ced0ee95cdf2729}{%
+           family={Riddell},
+           familyi={R\bibinitperiod},
+           given={Allen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Columbia Univ., New York, NY (United States); Harvard Univ., Cambridge, MA~\x{fffd}\x{fffd}\x{fffd}}%
+      }
+      \strng{namehash}{315a7c9e1cdeecc523de3b4d0e029d66}
+      \strng{fullhash}{8394b7381770ab43247c5feab0010f11}
+      \strng{authornamehash}{315a7c9e1cdeecc523de3b4d0e029d66}
+      \strng{authorfullhash}{8394b7381770ab43247c5feab0010f11}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of statistical software}
+      \field{number}{1}
+      \field{title}{Stan: A probabilistic programming language}
+      \field{volume}{76}
+      \field{year}{2017}
+    \endentry
     \entry{chung2018}{article}{}
       \name{author}{1}{}{%
         {{hash=31c5240d0d2d59e9ade7cf441061ab69}{%
@@ -1304,6 +1375,33 @@
       \field{pages}{321\bibrangedash 326}
       \range{pages}{6}
     \endentry
+    \entry{rcoreteam2020}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=a902f7a1275f47f57554b7ea75ccd0bc}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \strng{fullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \strng{authornamehash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \strng{authorfullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2020}
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
+    \endentry
     \entry{sampedro2020}{article}{}
       \name{author}{5}{}{%
         {{hash=70d2e24741b6c49d9ab353b1be733652}{%
@@ -1595,6 +1693,28 @@
       \field{year}{2018}
       \field{pages}{519}
       \range{pages}{1}
+    \endentry
+    \entry{stan2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2418ee02a26ab01ead911ec86c507892}{%
+           family={{Stan Development Team}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2418ee02a26ab01ead911ec86c507892}
+      \strng{fullhash}{2418ee02a26ab01ead911ec86c507892}
+      \strng{authornamehash}{2418ee02a26ab01ead911ec86c507892}
+      \strng{authorfullhash}{2418ee02a26ab01ead911ec86c507892}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 2.19.2}
+      \field{title}{{RStan}: the {R} interface to {Stan}}
+      \field{year}{2019}
+      \verb{url}
+      \verb http://mc-stan.org/
+      \endverb
     \endentry
     \entry{sterman2000}{book}{}
       \name{author}{1}{}{%

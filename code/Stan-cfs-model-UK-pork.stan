@@ -16,7 +16,6 @@ functions{
     real q = theta[10];
     real r = theta[11];
     real s = theta[12];
-    //real z = theta[13];
 
     real C = y[1];
     real I = y[2];
@@ -25,7 +24,7 @@ functions{
 
     real derivs[4];
 
-    derivs[1] = a * C * ( (P/b) - 1) - e_ * C;
+    derivs[1] = a * C * (P/b - 1) - e_ * C;
     derivs[2] = f*g*C - w*I - I/(D*s + I)*D + k*(h - f*g*C);
     derivs[3] = m*(h*q/P - D);
     derivs[4] = r*P*( s*D/I - 1);
@@ -51,12 +50,7 @@ data{
 transformed data{
   // these are fixed parameters -- parameters that do not need to be estimated
   real b_fix = 138.25;
-  real e_fix = 1/(5/2.3*12);
-  real f_fix = 25.5/52.0;
   real g_fix = 109.9 * 0.75;
-  real h_fix = 20*66.65e6/52.0;
-  real w_fix = 0.3;
-  real s_fix = 1;
   real x_r[0];
   int x_i[0];
 }
@@ -64,10 +58,8 @@ transformed data{
 parameters{
   // parameters on the transformed scale, easier to estimate
   real<lower=0> a;
-  //real<lower=0> b;
   real<lower=0> e_;
   real<lower=0> f;
-  //real<lower=0> g;
   real<lower=0,upper=1> k;
   real<lower=0> w;
   real<lower=0> h;
@@ -88,15 +80,14 @@ transformed parameters{
 
   // model parameters -- need to re-scale from the prior values to aid the HMC sampler
   p[1] = a / 10.0;
-  p[2] = b_fix; //b * 100.0;
+  p[2] = b_fix;
   p[3] = e_ / 10.0;
   p[4] = f;
-  p[5] = g_fix; //g * 1000;
+  p[5] = g_fix;
   p[6] = k;
   p[7] = h * 1e8;
   p[8] = w / 10.0;
   p[9] = m / 10.0;
-  // q = reference price per kg / 100
   p[10] = q * 100;
   p[11] = r / 10.0;
   p[12] = s;
@@ -114,10 +105,8 @@ model{
 
   // priors, all on a reasonable scale
   a ~ normal(0, 1);
-  //b ~ normal(0, 1);
   e_ ~ normal(0, 1);
   f ~ normal(0, 1);
-  //g ~ normal(0, 1);
   k ~ beta(2, 2);
   h ~ normal(0, 1);
   w ~ normal(0, 1);
@@ -145,7 +134,6 @@ model{
       }//n
 
       uk_production ~ lognormal( log( to_vector(states[,1]) * p[4] * p[5] ), sigma_production);
-      //trade ~ lognormal( log( p[6] * (p[7] - to_vector(states[,1]) * p[4] * p[5] ) ), sigma_trade[1]);
       imports ~ lognormal( log( p[6] * p[7]), sigma_trade[1]);
       exports ~ lognormal( log( p[6] * to_vector(states[,1]) * p[4] * p[5] ), sigma_trade[2]);
   }//Lk

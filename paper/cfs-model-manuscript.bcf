@@ -2209,9 +2209,12 @@
     <bcf:citekey order="63">DEFRAlivestocknumbers</bcf:citekey>
     <bcf:citekey order="64">DEFRApigcattlestats2020</bcf:citekey>
     <bcf:citekey order="65">AHDBpigmeatrade</bcf:citekey>
-    <bcf:citekey order="66">strogatz1994</bcf:citekey>
-    <bcf:citekey order="67">pimm1984</bcf:citekey>
-    <bcf:citekey order="68">ottoday2011</bcf:citekey>
+    <bcf:citekey order="66">carpenter2017</bcf:citekey>
+    <bcf:citekey order="67">stan2019</bcf:citekey>
+    <bcf:citekey order="68">rcoreteam2020</bcf:citekey>
+    <bcf:citekey order="69">strogatz1994</bcf:citekey>
+    <bcf:citekey order="70">pimm1984</bcf:citekey>
+    <bcf:citekey order="71">ottoday2011</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

@@ -201,11 +201,31 @@ where $\{v, x, y, z\}$ now represent the dimensionless state variables, $\tau$ i
   \label{t_nd_symbols}
 \end{table}
 
-\subsection{Data sources}
-A range of data is collected on the UK pig industry, but raw time series data is only available for certain variables and time frames. To fit our theoretical model, we focused on monthly data over a period of 5 years from 2015 to 2020, which covers the available data for prices per kilogram of deadweight (the `pig price'). Monthly pig prices were accessed through the Deparment for Environment, Food and Rural Affairs (DEFRA) webpage (\cite{DEFRAlivestockprices}), along with the June and December surveys of the size of breeding herd (\cite{DEFRAlivestocknumbers}). Monthly data for the inventory of pork, taking into account consumption and waste, is not reported in the UK. While customer demand is a theoretical quantity, we used the total monthly supplies of pig meat, calculated as domestic production of pig meat plus imported pig meat minus exported pig meat, as an indication of customer demand levels per month. Monthly data for UK production of pig meat was accessed from DEFRA (\cite{DEFRApigcattlestats2020}), while monthly imports and exports of pig meat was accessed from the Agricultural and Horticultural Development Board (\cite{AHDBpigmeatrade}). Missing data was considered missing completely at random (i.e. ignorable) because the missing data was not assumed to impact the accuracy of the available data. 
+\subsection{Data sources \& parameter estimation}
+A range of data is collected on the UK pig industry, but raw time series data is only available for certain variables and time frames. To fit our theoretical model, we focused on monthly data over a period of 5 years from 2015 to 2020, which covers the available data for prices per kilogram of deadweight (the `pig price'). Monthly pig prices were accessed through the Deparment for Environment, Food and Rural Affairs (DEFRA) webpage (\cite{DEFRAlivestockprices}), along with the June and December surveys of the size of breeding herd (\cite{DEFRAlivestocknumbers}). Monthly data for the inventory of pork, taking into account consumption and waste, is not reported in the UK. While customer demand is a theoretical quantity, we used the total monthly supplies of pig meat, calculated as domestic production of pig meat plus imported pig meat minus exported pig meat, as an indication of customer demand levels per month. Monthly data for UK production of pig meat was accessed from DEFRA (\cite{DEFRApigcattlestats2020}), while monthly imports and exports of pig meat was accessed from the Agricultural and Horticultural Development Board (\cite{AHDBpigmeatrade}). Missing data was considered missing completely at random (i.e. ignorable) because the missing data was not assumed to impact the accuracy of the available data.
 
-\subsection{Bayesian estimation}
-The parameters of the model were estimated using Bayesian estimation in the probabilistic programming language Stan ()
+The parameters and initial conditions of the non-dimensionalised model were estimated using Bayesian estimation in the probabilistic programming language Stan (\cite{carpenter2017}) using the RStan interface in R (\cite{stan2019}; \cite{rcoreteam2020}) using Stan's Runge-Kutta 4th and 5th order integration scheme (see Stan code in the supplementary materials). The available monthly time series data, $Y$, for month $i$ state variable $j$ was assumed log normal distributed:
+
+\begin{equation}
+  Y_{i}^{j} \sim \text{Lognormal}( ln( Z^{j} ), \sigma^{j})
+\end{equation}
+%
+where $Z^{j}$ is the state variable computed from the food systems model. In addition to fitting the state variables of the model to the time series data, we fit the UK monthly production figures, and the monthly imports and exports, to the respective flows from the model:
+
+\begin{equation}
+  \text{Production} \sim \text{Lognormal}( ln( f g Z^{1} ), \epsilon_{1})
+\end{equation}
+
+\begin{equation}
+  \text{Imports} \sim \text{Lognormal}( ln( k h ), \epsilon_{2})
+\end{equation}
+
+\begin{equation}
+  \text{Exports} \sim \text{Lognormal}( ln( k f g Z^{1} ), \epsilon_{3})
+\end{equation}
+
+
+To aid computation, all parameters were transformed to a similar scale and given $\text{Normal}(0, 1)$ prior distributions, and were back-transformed to the appropropriate scale when integrating the model. We ran 4 Markov chain Monte Carlo (MCMC) chains consisting of 2,500 iterations of warmup and 2,500 iterations of sampling, providing 10,000 samples from the posterior distribution for inference. All chains ran without any divergent transitions, and all parameters had effective sample sizes $>> 1000$ and $\hat{R}$ statistics (i.e. the Gelman-Rubin diagnositc) $0.99 < \hat{R} < 1.002$ indicating convergence.
 
 
 \section{Results}
@@ -304,16 +324,43 @@ The parameter estimates for $a$, $k$ and $q$ are given in Table \ref{table_param
 \begin{table}[t!]
   \centering
   \footnotesize
-  \begin{tabular}{p{5cm}p{2cm}p{3cm}p{2cm}}
-    \textbf{Parameter} & \textbf{Mean} & \textbf{95\% HDI} & \textbf{ESS} \\ \hline
-    $a$ & 0.12 & [0.05, 0.19] & 18,071 \\
-    $k$ & 0.44 & [0.18, 0.69] & 4,232 \\
-    $q$ & 146.72 & [122.50, 170.44] & 3,104 \\
-    critical ratio & 2.06 & [1.10, 2.96] & 13,598 \\
+  \begin{tabular}{p{5cm}p{2cm}p{3cm}p{2cm}p{2cm}}
+    \textbf{Parameter} & \textbf{Mean} & \textbf{95\% HDI} & \textbf{ESS} & \textbf{$\hat{R}$} \\ \hline
+    $a$ &  & [] &  & \\
+    $b$ &  & [] & & \\
+    $q$ &  & [] &  & \\
+    critical ratio &  & [] & & \\
   \end{tabular}
   \caption{Key parameter estimates (mean and 95\% highest density interval, HDI) and effective sample sizes (ESS) from fitting the model to the UK pig industry data.}
   \label{table_parameter_estimates}
 \end{table}
+
+\begin{figure}[t!]
+  \begin{subfigure}{0.5\textwidth}
+    \includegraphics[scale=0.5]{figure_3a.png}
+  \end{subfigure}%
+  %~
+  \begin{subfigure}{0.5\textwidth}
+    \includegraphics[scale=0.5]{figure_3b.png}
+  \end{subfigure}
+
+  \begin{subfigure}{0.5\textwidth}
+    \includegraphics[scale=0.5]{figure_3c.png}
+  \end{subfigure}%
+  %~
+  \begin{subfigure}{0.5\textwidth}
+    \includegraphics[scale=0.5]{figure_3d.png}
+  \end{subfigure}
+
+  \begin{subfigure}{0.5\textwidth}
+    \includegraphics[scale=0.5]{figure_3e.png}
+  \end{subfigure}%
+  %~
+  \begin{subfigure}{0.5\textwidth}
+    \includegraphics[scale=0.5]{figure_3f.png}
+  \end{subfigure}
+  \caption{Fitting the food systems model to the UK pig industry data. Blue dots show the raw monthly data (some data is missing), thin black lines display 200 random samples from the posterior distribution, and thick black lines indicate the mean posterior trajectory.}
+\end{figure}
 
 \section{Discussion}
 
