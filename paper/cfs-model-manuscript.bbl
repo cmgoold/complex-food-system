@@ -20,6 +20,31 @@
 \refsection{0}
   \sortlist[entry]{nyt/global/}
     \entry{AHDBeuroexhange2015}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=7ae8ad313f595260398fbf97ecfc7255}{%
+           family={Agricultural},
+           familyi={A\bibinitperiod}}}%
+        {{hash=638eee1ac9133cab5d8d72d624703b89}{%
+           family={Board},
+           familyi={B\bibinitperiod},
+           given={Horticultural\bibnamedelima Development},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{fullhash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{authornamehash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{authorfullhash}{a7dce9569c97e4699548ac68440b1cc4}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pork.ahdb.org.uk/prices-stats/news/2015/august/how-does-the-exchange-rate-affect-the-gb-pig-price/}}
+      \field{note}{Accessed: 2020-07-08}
+      \field{title}{{How does the exchange rate affect the GB pig price?}}
+      \field{year}{2015}
+    \endentry
+    \entry{AHDBpigmeatrade}{misc}{}
       \name{author}{1}{}{%
         {{hash=7163c0c85e2b67876411facf5879d5b9}{%
            family={AHDB},
@@ -34,10 +59,10 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://pork.ahdb.org.uk/prices-stats/news/2015/august/how-does-the-exchange-rate-affect-the-gb-pig-price/}}
-      \field{note}{Accessed: 2020-07-08}
-      \field{title}{{How does the exchange rate affect the GB pig price?}}
-      \field{year}{2015}
+      \field{howpublished}{\url{https://ahdb.org.uk/pork/pig-meat-trade}}
+      \field{note}{Accessed: 2020-08-24}
+      \field{title}{{Pig meat trade}}
+      \field{year}{2020}
     \endentry
     \entry{allen2016}{article}{}
       \name{author}{2}{}{%
@@ -145,6 +170,54 @@
       \field{pages}{123\bibrangedash 138}
       \range{pages}{16}
     \endentry
+    \entry{bowman2013}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=654dd5fccff6372801039d378aa5dd6e}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d9d54b29ceeb2d214e699818d2c202e8}{%
+           family={Froud},
+           familyi={F\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b36cb3edd086d02223ce8495a1a1e442}{%
+           family={Johal},
+           familyi={J\bibinitperiod},
+           given={Sukhdev},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c246f72cef77391372a5a22b4f286b2d}{%
+           family={Leaver},
+           familyi={L\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=14675dbf4d8ab216cd10a4bc9b431018}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Karel},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{48dc67eeac8b3c9e3bcd225a3064dbd0}
+      \strng{fullhash}{b27bca1607f785e32a5625e38dd72565}
+      \strng{authornamehash}{48dc67eeac8b3c9e3bcd225a3064dbd0}
+      \strng{authorfullhash}{b27bca1607f785e32a5625e38dd72565}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Accounting Forum}
+      \field{number}{4}
+      \field{title}{Opportunist dealing in the UK pig meat supply chain: Trader mentalities and alternatives}
+      \field{volume}{37}
+      \field{year}{2013}
+      \field{pages}{300\bibrangedash 314}
+      \range{pages}{15}
+    \endentry
     \entry{boyd2003}{article}{}
       \name{author}{4}{}{%
         {{hash=018a1bcaeb722c836df66d27c47f298a}{%
@@ -216,6 +289,63 @@
       \field{pages}{248\bibrangedash 264}
       \range{pages}{17}
     \endentry
+    \entry{coase1935}{article}{}
+      \name{author}{2}{}{%
+        {{hash=76fae779b8a24b668bb8af619fe4400a}{%
+           family={Coase},
+           familyi={C\bibinitperiod},
+           given={Ronald\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=c9cabb45cb25794e593fed32a6b0d809}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Ronald\bibnamedelima F},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{c86fdd40f47039b6c88d198bd6fd1155}
+      \strng{fullhash}{c86fdd40f47039b6c88d198bd6fd1155}
+      \strng{authornamehash}{c86fdd40f47039b6c88d198bd6fd1155}
+      \strng{authorfullhash}{c86fdd40f47039b6c88d198bd6fd1155}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economica}
+      \field{number}{6}
+      \field{title}{Bacon production and the pig-cycle in Great Britain}
+      \field{volume}{2}
+      \field{year}{1935}
+      \field{pages}{142\bibrangedash 167}
+      \range{pages}{26}
+    \endentry
+    \entry{dawson2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7ad2ef3c60fe3444716b5aa67ab5d889}{%
+           family={Dawson},
+           familyi={D\bibinitperiod},
+           given={Philip\bibnamedelima John},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{7ad2ef3c60fe3444716b5aa67ab5d889}
+      \strng{fullhash}{7ad2ef3c60fe3444716b5aa67ab5d889}
+      \strng{authornamehash}{7ad2ef3c60fe3444716b5aa67ab5d889}
+      \strng{authorfullhash}{7ad2ef3c60fe3444716b5aa67ab5d889}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Food Journal}
+      \field{title}{The UK pig cycle: a spectral analysis}
+      \field{year}{2009}
+    \endentry
     \entry{deGoede2013}{article}{}
       \name{author}{3}{}{%
         {{hash=cf3214e80ad4c58fab7014e57784c058}{%
@@ -252,6 +382,69 @@
       \field{year}{2013}
       \field{pages}{1\bibrangedash 7}
       \range{pages}{7}
+    \endentry
+    \entry{DEFRApigcattlestats2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8a486c4ecab37395a68fd00803c0b9f3}{%
+           family={DEFRA},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{fullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{extrayear}{1}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gov.uk/government/statistics/cattle-sheep-and-pig-slaughter}}
+      \field{note}{Accessed: 2020-08-24}
+      \field{title}{{Latest cattle, sheep and pig slaughter statistics}}
+      \field{year}{2020}
+    \endentry
+    \entry{DEFRAlivestocknumbers}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8a486c4ecab37395a68fd00803c0b9f3}{%
+           family={DEFRA},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{fullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{extrayear}{2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gov.uk/government/statistical-data-sets/structure-of-the-livestock-industry-in-england-at-december}}
+      \field{note}{Accessed: 2020-08-24}
+      \field{title}{{Livestock numbers in England and the UK}}
+      \field{year}{2020}
+    \endentry
+    \entry{DEFRAlivestockprices}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8a486c4ecab37395a68fd00803c0b9f3}{%
+           family={DEFRA},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{fullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{extrayear}{3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gov.uk/government/statistics/cattle-sheep-and-pig-slaughter}}
+      \field{note}{Accessed: 2020-08-24}
+      \field{title}{{Livestock prices, finished and store}}
+      \field{year}{2020}
     \endentry
     \entry{drimie2013}{article}{}
       \name{author}{2}{}{%
@@ -371,6 +564,55 @@
       \field{pages}{24\bibrangedash 25}
       \range{pages}{2}
     \endentry
+    \entry{BPEXprofitability2011}{report}{}
+      \name{author}{1}{}{%
+        {{hash=b16df89f0a297fa500923fdde1f43b1d}{%
+           family={Executive},
+           familyi={E\bibinitperiod},
+           given={British\bibnamedelima Pig},
+           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b16df89f0a297fa500923fdde1f43b1d}
+      \strng{fullhash}{b16df89f0a297fa500923fdde1f43b1d}
+      \strng{authornamehash}{b16df89f0a297fa500923fdde1f43b1d}
+      \strng{authorfullhash}{b16df89f0a297fa500923fdde1f43b1d}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Profitability in the pig supply chain}}
+      \field{type}{techreport}
+      \field{year}{2011}
+    \endentry
+    \entry{ezekiel1938}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ecaafc5a907b56ebf6936fd667702742}{%
+           family={Ezekiel},
+           familyi={E\bibinitperiod},
+           given={Mordecai},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{ecaafc5a907b56ebf6936fd667702742}
+      \strng{fullhash}{ecaafc5a907b56ebf6936fd667702742}
+      \strng{authornamehash}{ecaafc5a907b56ebf6936fd667702742}
+      \strng{authorfullhash}{ecaafc5a907b56ebf6936fd667702742}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{2}
+      \field{title}{The cobweb theorem}
+      \field{volume}{52}
+      \field{year}{1938}
+      \field{pages}{255\bibrangedash 280}
+      \range{pages}{26}
+    \endentry
     \entry{FAO1996}{book}{}
       \name{author}{1}{}{%
         {{hash=c099f80f5f619912404a2a2221bb6948}{%
@@ -430,6 +672,62 @@
       \field{pages}{307}
       \range{pages}{1}
     \endentry
+    \entry{gouel2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=da68b60a0cfbad559581860111c636f0}{%
+           family={Gouel},
+           familyi={G\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{da68b60a0cfbad559581860111c636f0}
+      \strng{fullhash}{da68b60a0cfbad559581860111c636f0}
+      \strng{authornamehash}{da68b60a0cfbad559581860111c636f0}
+      \strng{authorfullhash}{da68b60a0cfbad559581860111c636f0}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of economic surveys}
+      \field{number}{1}
+      \field{title}{Agricultural price instability: a survey of competing explanations and remedies}
+      \field{volume}{26}
+      \field{year}{2012}
+      \field{pages}{129\bibrangedash 156}
+      \range{pages}{28}
+    \endentry
+    \entry{haldane1934}{article}{}
+      \name{author}{1}{}{%
+        {{hash=df201e1f94321f9e1abf831304e7b458}{%
+           family={Haldane},
+           familyi={H\bibinitperiod},
+           given={JBS},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{df201e1f94321f9e1abf831304e7b458}
+      \strng{fullhash}{df201e1f94321f9e1abf831304e7b458}
+      \strng{authornamehash}{df201e1f94321f9e1abf831304e7b458}
+      \strng{authorfullhash}{df201e1f94321f9e1abf831304e7b458}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{number}{3}
+      \field{title}{A contribution to the theory of price fluctuations}
+      \field{volume}{1}
+      \field{year}{1934}
+      \field{pages}{186\bibrangedash 195}
+      \range{pages}{10}
+    \endentry
     \entry{hammond2012}{article}{}
       \name{author}{2}{}{%
         {{hash=d455c97496072480d5aafbb595299b29}{%
@@ -462,6 +760,34 @@
       \field{year}{2012}
       \field{pages}{12356\bibrangedash 12363}
       \range{pages}{8}
+    \endentry
+    \entry{harlow1960}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c5f34ae0973a9870f5404590ec6b7ebe}{%
+           family={Harlow},
+           familyi={H\bibinitperiod},
+           given={Arthur\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{c5f34ae0973a9870f5404590ec6b7ebe}
+      \strng{fullhash}{c5f34ae0973a9870f5404590ec6b7ebe}
+      \strng{authornamehash}{c5f34ae0973a9870f5404590ec6b7ebe}
+      \strng{authorfullhash}{c5f34ae0973a9870f5404590ec6b7ebe}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Farm Economics}
+      \field{number}{4}
+      \field{title}{The hog cycle and the cobweb theorem}
+      \field{volume}{42}
+      \field{year}{1960}
+      \field{pages}{842\bibrangedash 853}
+      \range{pages}{12}
     \endentry
     \entry{ingram2011}{article}{}
       \name{author}{1}{}{%
@@ -917,6 +1243,39 @@
       \field{pages}{290\bibrangedash 299}
       \range{pages}{10}
     \endentry
+    \entry{parker2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c29daa761724c331e2eadbba18f40c2d}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={Phillip\bibnamedelima S},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6645b363d7c2a7d5eb4a692e24f5d1fb}{%
+           family={Shonkwiler},
+           familyi={S\bibinitperiod},
+           given={JS},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{9b5c8e95d25de35e84228a342a081b47}
+      \strng{fullhash}{9b5c8e95d25de35e84228a342a081b47}
+      \strng{authornamehash}{9b5c8e95d25de35e84228a342a081b47}
+      \strng{authorfullhash}{9b5c8e95d25de35e84228a342a081b47}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Review of Agricultural Economics}
+      \field{number}{1}
+      \field{title}{On the centenary of the German hog cycle: New findings}
+      \field{volume}{41}
+      \field{year}{2014}
+      \field{pages}{47\bibrangedash 61}
+      \range{pages}{15}
+    \endentry
     \entry{pimm1984}{article}{}
       \name{author}{1}{}{%
         {{hash=84857453c22a3f49ef462303dcd60836}{%
@@ -1364,6 +1723,30 @@
       \field{pages}{6902\bibrangedash 6907}
       \range{pages}{6}
     \endentry
+    \entry{taylor2006}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5b0d8051a6e76bd14cedd0a4c5a1683d}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={David\bibnamedelima H},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{5b0d8051a6e76bd14cedd0a4c5a1683d}
+      \strng{fullhash}{5b0d8051a6e76bd14cedd0a4c5a1683d}
+      \strng{authornamehash}{5b0d8051a6e76bd14cedd0a4c5a1683d}
+      \strng{authorfullhash}{5b0d8051a6e76bd14cedd0a4c5a1683d}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Supply Chain Management: An International Journal}
+      \field{title}{Strategic considerations in the development of lean agri-food supply chains: a case study of the UK pork sector}
+      \field{year}{2006}
+    \endentry
     \entry{tendall2015}{article}{}
       \name{author}{9}{}{%
         {{hash=1ea1e7325b57156e9b19a2efcdca992f}{%
@@ -1468,6 +1851,31 @@
       \field{year}{2019}
       \field{pages}{283}
       \range{pages}{1}
+    \endentry
+    \entry{zawadzka2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=06dfc1583893a53d7655cf93a84dea64}{%
+           family={Zawadzka},
+           familyi={Z\bibinitperiod},
+           given={Danuta},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {-}%
+      }
+      \strng{namehash}{06dfc1583893a53d7655cf93a84dea64}
+      \strng{fullhash}{06dfc1583893a53d7655cf93a84dea64}
+      \strng{authornamehash}{06dfc1583893a53d7655cf93a84dea64}
+      \strng{authorfullhash}{06dfc1583893a53d7655cf93a84dea64}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zagadnienia Ekonomiki Rolnej}
+      \field{number}{1 Dodatek}
+      \field{title}{The history of research on the" pig cycle"}
+      \field{year}{2010}
     \endentry
   \endsortlist
 \endrefsection

@@ -2,20 +2,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Theoretical model}{4}{section.2}
+\contentsline {section}{\numberline {2}Materials and methods}{4}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Model analysis}{8}{section.3}
+\contentsline {subsection}{\numberline {2.1}Theoretical model}{4}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Without international trade}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {2.2}Data sources}{7}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}With international trade}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {2.3}Bayesian estimation}{8}{subsection.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Unsustainable domestic production}{9}{subsubsection.3.2.1}
+\contentsline {section}{\numberline {3}Results}{9}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Sustainable domestic production}{9}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.1}Model analysis}{9}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Application: the UK pig industry}{11}{section.4}
+\contentsline {subsubsection}{\numberline {3.1.1}Without international trade}{9}{subsubsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Model estimation}{11}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {3.1.2}With international trade}{9}{subsubsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Discussion}{11}{section.5}
+\contentsline {subsection}{\numberline {3.2}Application to UK pig industry}{12}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Discussion}{12}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Limitations}{12}{subsection.4.1}
