@@ -1,6 +1,6 @@
 
 get_needed_packages <- function(x){
-  needed <- c("rstan", "coda", "scales")
+  needed <- c("rstan", "coda", "scales", "RColorBrewer")
   if(sum(installed.packages() %in% needed) < length(needed)){
     install.packages( needed[which( !(needed %in% installed.packages()))] )
   } 

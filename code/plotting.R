@@ -1,6 +1,9 @@
-source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/linear-stability-analysis-functions.R")
-source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/utilities.R")
-setwd("~/Dropbox/Leeds_postdoc/Papers/cfs-model/paper/figures")
+code_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/"
+figure_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/paper/figures"
+
+source(paste0(code_path, "linear-stability-analysis-functions.R"))
+source(paste0(code_path, "utilities.R"))
+setwd(figure_path)
 
 #figure 1a
 n_seq <- 20
@@ -255,7 +258,7 @@ state_variables <- with(d_monthly_uk_pork,
 
 state_variables <- apply(state_variables, 2, function(x) ifelse( is.na(x), -100, x))
 
-draws <- read.csv("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-MCMC-results.csv")
+draws <- read.csv(paste0(code_path, "Stan-MCMC-results.csv"))
 n_draws <- nrow(draws)
 
 # posterior predictions
@@ -411,32 +414,32 @@ mtext("e", line = 1, at = 1, font=2, cex=1.5)
 dev.off()
 
 # Figure 3f
-png("figure_3f.png", width=1300, height=1000, res=200)
-initial <- NA
-plot(c(initial, d_monthly_uk_pork$exports_kg), type="n", 
-     col = scales::alpha("slateblue",0.6), pch=16,
-     ylim=c(min(na.omit(d_monthly_uk_pork$exports_kg)) * 0.9 , max(na.omit(d_monthly_uk_pork$exports_kg)) * 1.1 ),
-     axes=F, xlab = "months/years", ylab = "Exports (kg)", cex.lab=1.5)
-axis(side=1, at = seq(2, n_t+1, 6),
-     labels = paste( rep(c("Jan", "Jul"), times=5), rep( c("'15", "'16", "'17", "'18", "'19"), each=2)),
-     cex.axis=0.7)
-axis(side=2, at = seq(15e6, 45e6, 5e6))
-for(i in 1:n_samples){
-  points(1:(n_t+1), 
-         rlnorm(n = n_t+1, 
-                meanlog = log(unlist( draws[sample_draws[i], "p.6."] * states_bh[sample_draws[i], ] * draws[sample_draws[i], "p.4."] * draws[sample_draws[i], "p.5."])), 
-                sdlog = draws[sample_draws[i], "sigma_production"]),
-         col = scales::alpha("slateblue",0.1)
-  )
-  lines(1:(n_t+1), draws[sample_draws[i], "p.6."] * states_bh[sample_draws[i], ] * draws[sample_draws[i], "p.4."] * draws[sample_draws[i], "p.5."], 
-        col = scales::alpha("black", 0.5), lwd=0.3)
-}
-lines(1:(n_t+1), apply( draws$p.6. * states_bh * draws$p.4. * draws$p.5., 2, mean), 
-      col = scales::alpha("black", 1), lwd=4)
-lines(c(initial, d_monthly_uk_pork$exports_kg))
-points(c(initial, d_monthly_uk_pork$exports_kg), col="orange", pch=16)
-mtext("f", line = 1, at = 1, font=2, cex=1.5)
-dev.off()
+# png("figure_3f.png", width=1300, height=1000, res=200)
+# initial <- NA
+# plot(c(initial, d_monthly_uk_pork$exports_kg), type="n", 
+#      col = scales::alpha("slateblue",0.6), pch=16,
+#      ylim=c(min(na.omit(d_monthly_uk_pork$exports_kg)) * 0.9 , max(na.omit(d_monthly_uk_pork$exports_kg)) * 1.1 ),
+#      axes=F, xlab = "months/years", ylab = "Exports (kg)", cex.lab=1.5)
+# axis(side=1, at = seq(2, n_t+1, 6),
+#      labels = paste( rep(c("Jan", "Jul"), times=5), rep( c("'15", "'16", "'17", "'18", "'19"), each=2)),
+#      cex.axis=0.7)
+# axis(side=2, at = seq(15e6, 45e6, 5e6))
+# for(i in 1:n_samples){
+#   points(1:(n_t+1), 
+#          rlnorm(n = n_t+1, 
+#                 meanlog = log(unlist( draws[sample_draws[i], "p.6."] * states_bh[sample_draws[i], ] * draws[sample_draws[i], "p.4."] * draws[sample_draws[i], "p.5."])), 
+#                 sdlog = draws[sample_draws[i], "sigma_production"]),
+#          col = scales::alpha("slateblue",0.1)
+#   )
+#   lines(1:(n_t+1), draws[sample_draws[i], "p.6."] * states_bh[sample_draws[i], ] * draws[sample_draws[i], "p.4."] * draws[sample_draws[i], "p.5."], 
+#         col = scales::alpha("black", 0.5), lwd=0.3)
+# }
+# lines(1:(n_t+1), apply( draws$p.6. * states_bh * draws$p.4. * draws$p.5., 2, mean), 
+#       col = scales::alpha("black", 1), lwd=4)
+# lines(c(initial, d_monthly_uk_pork$exports_kg))
+# points(c(initial, d_monthly_uk_pork$exports_kg), col="orange", pch=16)
+# mtext("f", line = 1, at = 1, font=2, cex=1.5)
+# dev.off()
 
 png("figure_3f.png", width=1300, height=1000, res=200)
 initial <- NA

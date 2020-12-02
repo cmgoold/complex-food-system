@@ -3,14 +3,16 @@
 #   using  Stan
 #   Copyright Conor Goold (2020)
 #####################################################################
+code_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/"
+data_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/data/"
 
-source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/utilities.R")
-source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/ode-model.R")
+source(paste0(code_path, "utilities.R"))
+source(paste0(code_path, "ode-model.R"))
 
 get_needed_packages()
 
 # load the data
-d_monthly_uk_pork <- read.csv("~/Dropbox/Leeds_postdoc/Papers/cfs-model/data/uk_pork_industry_monthly_data.csv")
+d_monthly_uk_pork <- read.csv(paste0(data_path, "uk_pork_industry_monthly_data.csv"))
 
 # change tonnes to kg
 d_monthly_uk_pork$imports_kg <- d_monthly_uk_pork$imports_tonnes * 1000
@@ -41,7 +43,7 @@ stan_data <- list(
 )
 
 # compile the model
-cipd_model <- rstan::stan_model("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-cfs-model-UK-pork.stan")
+cipd_model <- rstan::stan_model(paste0(code_path, "Stan-cfs-model-UK-pork.stan"))
 
 # fit the model
 fit_uk_pork_model <- rstan::sampling( 
@@ -54,11 +56,12 @@ fit_uk_pork_model <- rstan::sampling(
 )
 
 capture.output(rstan::check_hmc_diagnostics(fit_uk_pork_model), 
-               file = "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-MCMC-diagnostics.csv")
+               file = paste0(code_path, "Stan-MCMC-diagnostics.csv")
+               )
 
 draws <- as.data.frame(fit_uk_pork_model)
 
-write.csv(draws, file = "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-MCMC-results2.csv", row.names = FALSE)
+write.csv(draws, file = paste0(code_path, "Stan-MCMC-results2.csv"), row.names = FALSE)
 
 capture.output(
   print(fit_uk_pork_model, pars=c("p", "a", "e_", "f", "k", "h", "w", "m","r","q","s","critical_ratio",
@@ -66,5 +69,5 @@ capture.output(
                                   "sigma", "sigma_trade", "sigma_production"), 
         digits_summary = 4, probs=c(0.025, 0.975)
   ),
-  file =  "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-MCMC-summary2.csv"
+  file = paste0(code_path, "Stan-MCMC-summary2.csv")
 )
