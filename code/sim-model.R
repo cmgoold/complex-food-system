@@ -1,5 +1,5 @@
-source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/R/ode-model.R")
-source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/R/linear-stability-analysis-functions.R")
+source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/ode-model.R")
+source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/linear-stability-analysis-functions.R")
 
 # set the parameters
 a <- 1/52
@@ -14,7 +14,6 @@ m <- 1/2
 q <- 150
 r <- 1/20
 s <- 1
-theta <- 1
 C_init <- 100e3
 I_init <- 30e6
 D_init <- 30e6
@@ -22,8 +21,8 @@ P_init <- 140
 
 states <- c(C = C_init, I = I_init, D = D_init, P = P_init)
 
-dt <- 0.01
-t <- seq(0, 52*5, dt)
+dt <- 0.1
+t <- seq(0, 52*50, dt)
 
 run_cfs <- as.data.frame(
   deSolve::ode(
@@ -63,10 +62,11 @@ states_nd <- c(Chat=Chat, Ihat=Ihat, Dhat=Dhat, Phat=Phat)
 
 #cr(alpha = alpha, kappa = kappa, gamma = gamma, beta = beta, omega = omega)
 
+critical_ratio(p_list = list(alpha = alpha, beta=beta, kappa=kappa, gamma=gamma, omega=omega))
 alpha_critical(p_list = list(beta=beta, kappa=kappa, gamma=gamma, omega=omega))
 kappa_critical(p_list = list(alpha=alpha, gamma=gamma, beta=beta, omega=omega))
 get_fixed_points(p_list = list(alpha=alpha, beta=beta, kappa=kappa, gamma=gamma, omega=omega, delta=delta))
-2 * gamma * (1 + beta)/(gamma + 2*omega) # if alpha > alpha_critical, and if alpha this value domestic production exceeds reference demand (exports)
+alpha*(gamma + 2*omega)/(2 * gamma * (1 + beta)) # if alpha > alpha_critical, and if alpha > this value, domestic production exceeds reference demand (exports)
 
 run_cfs_nd <- as.data.frame(
   deSolve::ode(

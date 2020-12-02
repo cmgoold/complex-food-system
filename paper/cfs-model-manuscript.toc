@@ -6,18 +6,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Theoretical model}{4}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Data sources \& parameter estimation}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Data sources \& parameter estimation}{8}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Results}{9}{section.3}
+\contentsline {section}{\numberline {3}Results}{10}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Model analysis}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Mathematical analysis}{10}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}Without international trade}{9}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Without international trade}{10}{subsubsection.3.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.2}With international trade}{10}{subsubsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Application to UK pig industry}{12}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Application to UK pig industry}{13}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Discussion}{14}{section.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Limitations}{14}{subsection.4.1}

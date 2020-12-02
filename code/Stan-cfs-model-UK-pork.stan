@@ -1,6 +1,6 @@
 functions{
 
-  // use the in-built integrate_ode_rk45 solver in Stan instead
+  // ODE model definition to be passed to integrate_ode_rk45 solver in Stan 
   real[] cidp_ode(real t, real[] y, real[] theta,  real[] x_r, int[] x_i)
   {
     // parameters
@@ -67,8 +67,8 @@ parameters{
   real<lower=0> q;
   real<lower=0> r;
   real<lower=0> s;
-  real<lower=0> states_init[4];
-  vector<lower=0>[4] sigma;
+  real<lower=0> states_init[n_states];
+  vector<lower=0>[n_states] sigma;
   real<lower=0> sigma_production;
   real<lower=0> sigma_trade[2];
 }
@@ -116,8 +116,8 @@ model{
   s ~ normal(0, 1);
 
   states_init[1] ~ lognormal( log(y[6,1]/1e5), 0.1);
-  states_init[2] ~ lognormal( log(y[1,3]/1e8), 0.5);
-  states_init[3] ~ lognormal( log(y[1,3]/1e8), 0.5);
+  states_init[2] ~ lognormal( log(y[1,2]/1e8), 0.5);
+  states_init[3] ~ lognormal( log(y[1,2]/1e8), 0.5);
   states_init[4] ~ lognormal( log(y[1,4]/100.0), 0.5);
 
   sigma ~ lognormal(-1, 1);
@@ -126,7 +126,7 @@ model{
 
   // likelihood
   if(!prior_only){
-      for(n in 1:4){
+      for(n in 1:n_states){
         for(i in 1:n_t){
           if(y[i,n] != -100)
             y[i,n] ~ lognormal(log(states[i,n]), sigma[n]);
@@ -148,4 +148,6 @@ generated quantities{
   real beta = p[3]/p[1];
   // critical ratio
   real critical_ratio = alpha*(omega + gamma/2) / (kappa*gamma*(1 + beta));
+  // surplus ratio
+  real surplus_ratio = alpha*(gamma + 2*omega) / (2*gamma*(1 + beta));
 }

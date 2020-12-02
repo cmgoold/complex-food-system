@@ -7,3 +7,5 @@ paper/*.log
 paper/*.out
 paper/*.run.xml
 paper/*.toc
+
+code/zzz

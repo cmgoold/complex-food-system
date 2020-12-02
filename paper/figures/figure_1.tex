@@ -3,6 +3,10 @@
 \usetikzlibrary{positioning,arrows.meta,backgrounds}
 \definecolor{cornflowerblue}{rgb}{0.39, 0.58, 0.93}
 
+\definecolor{capitalcolour}{HTML}{1B9E77}
+\definecolor{inventorycolour}{HTML}{D95F02}
+\definecolor{demandcolour}{HTML}{E6AB02}
+
 \begin{document}
 
 \begin{tikzpicture}[
@@ -13,10 +17,10 @@
   flow_lab/.style = {font=\normalfont}
   ]
 
-  \node[state] (capital) {$C$};
-  \node[state, right of = capital] (inventory) {$I$};
-  \node[state, below left of = inventory, xshift=4cm, yshift=-1cm] (demand) {$D$};
-  \node[state, below of = capital, yshift=2cm] (price) {$P$};
+  \node[state, fill=capitalcolour] (capital) {$C$};
+  \node[state, fill=inventorycolour, right of = capital] (inventory) {$I$};
+  \node[state, fill=demandcolour, below left of = inventory, xshift=4cm, yshift=-1cm] (demand) {$D$};
+  \node[state, fill=cornflowerblue, below of = capital, yshift=2cm] (price) {$P$};
 
   \node[ph, left of=capital] (capital_in) {};
   \draw[flow] (capital_in) -- node[below=.15cm, flow_lab] (replace) {$a(C, P, b)$} (capital);
@@ -29,7 +33,7 @@
   \node[ph, right of = inventory] (inventory_waste) {};
   \draw[flow] (inventory) to node[below right, flow_lab] (waste) {$w(I)$} (inventory_waste);
   \node[ph, above of = inventory] (imports) {};
-  \draw[flow] (imports) to node[right, flow_lab] (importing) {$k(h,fgC)$} (inventory);
+  \draw[flow,<->] (imports) to node[right, flow_lab] (importing) {$k(h,fgC)$} (inventory);
   \draw[dashed,->] (d_production) to[out=70,in=180] (importing);
   \node[ph, below of = inventory] (consumption) {};
   \draw[flow] (inventory) to node[right,flow_lab] (consuming) {$c(I,D)$} (consumption);

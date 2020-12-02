@@ -19,6 +19,34 @@
 
 \refsection{0}
   \sortlist[entry]{nyt/global/}
+    \entry{AHDBexports2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=07dc5e219a41ff1e05caf8f4f407f439}{%
+           family={{Agricultural and Horticultural Development Board}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=7163c0c85e2b67876411facf5879d5b9}{%
+           family={{AHDB}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{fullhash}{07dc5e219a41ff1e05caf8f4f407f439}
+      \strng{authornamehash}{07dc5e219a41ff1e05caf8f4f407f439}
+      \strng{authorfullhash}{07dc5e219a41ff1e05caf8f4f407f439}
+      \strng{shortauthornamehash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{shortauthorfullhash}{7163c0c85e2b67876411facf5879d5b9}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{extrayear}{1}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://ahdb.org.uk/news/uk-pig-meat-exports-show-strong-growth-in-july}}
+      \field{note}{Accessed: 2020-10-13}
+      \field{title}{{UK pig meat exports show strong growth in July}}
+      \field{year}{2020}
+    \endentry
     \entry{AHDBeuroexhange2015}{misc}{}
       \name{author}{2}{}{%
         {{hash=7ae8ad313f595260398fbf97ecfc7255}{%
@@ -30,34 +58,84 @@
            given={Horticultural\bibnamedelima Development},
            giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
-      \strng{namehash}{a7dce9569c97e4699548ac68440b1cc4}
+      \name{shortauthor}{1}{}{%
+        {{hash=7163c0c85e2b67876411facf5879d5b9}{%
+           family={{AHDB}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7163c0c85e2b67876411facf5879d5b9}
       \strng{fullhash}{a7dce9569c97e4699548ac68440b1cc4}
       \strng{authornamehash}{a7dce9569c97e4699548ac68440b1cc4}
       \strng{authorfullhash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{shortauthornamehash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{shortauthorfullhash}{7163c0c85e2b67876411facf5879d5b9}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://pork.ahdb.org.uk/prices-stats/news/2015/august/how-does-the-exchange-rate-affect-the-gb-pig-price/}}
       \field{note}{Accessed: 2020-07-08}
       \field{title}{{How does the exchange rate affect the GB pig price?}}
       \field{year}{2015}
     \endentry
-    \entry{AHDBpigmeatrade}{misc}{}
-      \name{author}{1}{}{%
+    \entry{AHDBpocketbook2018}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=7ae8ad313f595260398fbf97ecfc7255}{%
+           family={Agricultural},
+           familyi={A\bibinitperiod}}}%
+        {{hash=638eee1ac9133cab5d8d72d624703b89}{%
+           family={Board},
+           familyi={B\bibinitperiod},
+           given={Horticultural\bibnamedelima Development},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
         {{hash=7163c0c85e2b67876411facf5879d5b9}{%
-           family={AHDB},
+           family={{AHDB}},
            familyi={A\bibinitperiod}}}%
       }
       \strng{namehash}{7163c0c85e2b67876411facf5879d5b9}
-      \strng{fullhash}{7163c0c85e2b67876411facf5879d5b9}
-      \strng{authornamehash}{7163c0c85e2b67876411facf5879d5b9}
-      \strng{authorfullhash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{fullhash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{authornamehash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{authorfullhash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{shortauthornamehash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{shortauthorfullhash}{7163c0c85e2b67876411facf5879d5b9}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{{Pig Pocketbook - 2018}}
+      \field{year}{2018}
+    \endentry
+    \entry{AHDBpigmeatrade}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=7ae8ad313f595260398fbf97ecfc7255}{%
+           family={Agricultural},
+           familyi={A\bibinitperiod}}}%
+        {{hash=638eee1ac9133cab5d8d72d624703b89}{%
+           family={Board},
+           familyi={B\bibinitperiod},
+           given={Horticultural\bibnamedelima Development},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=7163c0c85e2b67876411facf5879d5b9}{%
+           family={{AHDB}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{fullhash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{authornamehash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{authorfullhash}{a7dce9569c97e4699548ac68440b1cc4}
+      \strng{shortauthornamehash}{7163c0c85e2b67876411facf5879d5b9}
+      \strng{shortauthorfullhash}{7163c0c85e2b67876411facf5879d5b9}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{extrayear}{2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://ahdb.org.uk/pork/pig-meat-trade}}
       \field{note}{Accessed: 2020-08-24}
@@ -454,21 +532,71 @@
       \field{pages}{1\bibrangedash 7}
       \range{pages}{7}
     \endentry
-    \entry{DEFRApigcattlestats2020}{misc}{}
-      \name{author}{1}{}{%
+    \entry{DEFRA2019auk18}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=de0a9e55bb266a792b480a63d8a18c7a}{%
+           family={Department\bibnamedelimb for\bibnamedelima Environment},
+           familyi={D\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Food},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f72293bb0e11c394ab9eff3805f5556a}{%
+           family={Affairs},
+           familyi={A\bibinitperiod},
+           given={Rural},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
         {{hash=8a486c4ecab37395a68fd00803c0b9f3}{%
-           family={DEFRA},
+           family={{DEFRA}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Deparment for Environment Food}%
+        {Rural Affairs (DEFRA)}%
+      }
+      \strng{namehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{fullhash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{authornamehash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{authorfullhash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{shortauthornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{shortauthorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{{Agriculture in the United Kingdom 2018}}
+      \field{year}{2019}
+    \endentry
+    \entry{DEFRApigcattlestats2020}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=de0a9e55bb266a792b480a63d8a18c7a}{%
+           family={Department\bibnamedelimb for\bibnamedelima Environment},
+           familyi={D\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Food},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f72293bb0e11c394ab9eff3805f5556a}{%
+           family={Affairs},
+           familyi={A\bibinitperiod},
+           given={Rural},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=8a486c4ecab37395a68fd00803c0b9f3}{%
+           family={{DEFRA}},
            familyi={D\bibinitperiod}}}%
       }
       \strng{namehash}{8a486c4ecab37395a68fd00803c0b9f3}
-      \strng{fullhash}{8a486c4ecab37395a68fd00803c0b9f3}
-      \strng{authornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
-      \strng{authorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{fullhash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{authornamehash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{authorfullhash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{shortauthornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{shortauthorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{extrayear}{1}
       \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.gov.uk/government/statistics/cattle-sheep-and-pig-slaughter}}
       \field{note}{Accessed: 2020-08-24}
@@ -476,20 +604,34 @@
       \field{year}{2020}
     \endentry
     \entry{DEFRAlivestocknumbers}{misc}{}
-      \name{author}{1}{}{%
+      \name{author}{2}{}{%
+        {{hash=de0a9e55bb266a792b480a63d8a18c7a}{%
+           family={Department\bibnamedelimb for\bibnamedelima Environment},
+           familyi={D\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Food},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f72293bb0e11c394ab9eff3805f5556a}{%
+           family={Affairs},
+           familyi={A\bibinitperiod},
+           given={Rural},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
         {{hash=8a486c4ecab37395a68fd00803c0b9f3}{%
-           family={DEFRA},
+           family={{DEFRA}},
            familyi={D\bibinitperiod}}}%
       }
       \strng{namehash}{8a486c4ecab37395a68fd00803c0b9f3}
-      \strng{fullhash}{8a486c4ecab37395a68fd00803c0b9f3}
-      \strng{authornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
-      \strng{authorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{fullhash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{authornamehash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{authorfullhash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{shortauthornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{shortauthorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{extrayear}{2}
       \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.gov.uk/government/statistical-data-sets/structure-of-the-livestock-industry-in-england-at-december}}
       \field{note}{Accessed: 2020-08-24}
@@ -497,25 +639,87 @@
       \field{year}{2020}
     \endentry
     \entry{DEFRAlivestockprices}{misc}{}
-      \name{author}{1}{}{%
+      \name{author}{2}{}{%
+        {{hash=de0a9e55bb266a792b480a63d8a18c7a}{%
+           family={Department\bibnamedelimb for\bibnamedelima Environment},
+           familyi={D\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Food},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f72293bb0e11c394ab9eff3805f5556a}{%
+           family={Affairs},
+           familyi={A\bibinitperiod},
+           given={Rural},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
         {{hash=8a486c4ecab37395a68fd00803c0b9f3}{%
-           family={DEFRA},
+           family={{DEFRA}},
            familyi={D\bibinitperiod}}}%
       }
       \strng{namehash}{8a486c4ecab37395a68fd00803c0b9f3}
-      \strng{fullhash}{8a486c4ecab37395a68fd00803c0b9f3}
-      \strng{authornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
-      \strng{authorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{fullhash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{authornamehash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{authorfullhash}{a6671e0e711752fbb2b061db38f778b4}
+      \strng{shortauthornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{shortauthorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{extrayear}{3}
       \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.gov.uk/government/statistics/cattle-sheep-and-pig-slaughter}}
+      \field{howpublished}{\url{https://www.gov.uk/government/statistical-data-sets/livestock-prices-finished-and-store}}
       \field{note}{Accessed: 2020-08-24}
       \field{title}{{Livestock prices, finished and store}}
       \field{year}{2020}
+    \endentry
+    \entry{dodorico2014}{article}{}
+      \name{author}{5}{}{%
+        {{hash=852c15d039ff3b1dfa2c5c6b91b34fb6}{%
+           family={D'Odorico},
+           familyi={D\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a831121a67a5d56b4c58dd1a37b90604}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={Joel\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f28c21dea2fbc44f9ce3a50d2a3ee09c}{%
+           family={Laio},
+           familyi={L\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=66b9ae2a899ee167dca8681953b9d701}{%
+           family={Ridolfi},
+           familyi={R\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=602a961b7bc44c10dd4a87116e2d1200}{%
+           family={Vandoni},
+           familyi={V\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{1bbaf665870f7eb6e48865c42d430bfb}
+      \strng{fullhash}{7dc189441139eb4784236e26f5be8de6}
+      \strng{authornamehash}{1bbaf665870f7eb6e48865c42d430bfb}
+      \strng{authorfullhash}{7dc189441139eb4784236e26f5be8de6}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Earth's Future}
+      \field{number}{9}
+      \field{title}{Feeding humanity through global food trade}
+      \field{volume}{2}
+      \field{year}{2014}
+      \field{pages}{458\bibrangedash 469}
+      \range{pages}{12}
     \endentry
     \entry{drimie2013}{article}{}
       \name{author}{2}{}{%
@@ -643,14 +847,21 @@
            given={British\bibnamedelima Pig},
            giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \strng{namehash}{b16df89f0a297fa500923fdde1f43b1d}
+      \name{shortauthor}{1}{}{%
+        {{hash=bf08be4f977cd8374a9a75b4e99feeac}{%
+           family={{BPEX}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf08be4f977cd8374a9a75b4e99feeac}
       \strng{fullhash}{b16df89f0a297fa500923fdde1f43b1d}
       \strng{authornamehash}{b16df89f0a297fa500923fdde1f43b1d}
       \strng{authorfullhash}{b16df89f0a297fa500923fdde1f43b1d}
+      \strng{shortauthornamehash}{bf08be4f977cd8374a9a75b4e99feeac}
+      \strng{shortauthorfullhash}{bf08be4f977cd8374a9a75b4e99feeac}
       \field{sortinit}{E}
       \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
       \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{title}{{Profitability in the pig supply chain}}
       \field{type}{techreport}
@@ -704,6 +915,49 @@
       \field{labeltitlesource}{title}
       \field{title}{World Food Summit: Rome Declaration on World Food Security and World Food Summit Plan of Action}
       \field{year}{1996}
+    \endentry
+    \entry{feng2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3f01fb9100c9572aeffed04c3dff3bc4}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Siyi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8214a94043a0f1f9f8e796eae2c7896d}{%
+           family={Patton},
+           familyi={P\bibinitperiod},
+           given={Myles},
+           giveni={M\bibinitperiod}}}%
+        {{hash=967d49d347e6648a0b324408391c8f07}{%
+           family={Binfield},
+           familyi={B\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=de52d0bfe0cf839cc0da02687b135f80}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2180f9f82fd43b43e1ae5ed71eff1e0f}
+      \strng{fullhash}{163fca8973f32e329a251d3150152725}
+      \strng{authornamehash}{2180f9f82fd43b43e1ae5ed71eff1e0f}
+      \strng{authorfullhash}{163fca8973f32e329a251d3150152725}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EuroChoices}
+      \field{number}{3}
+      \field{title}{`Deal' or `no deal'? Impacts of alternative post-Brexit trade agreements on UK agriculture}
+      \field{volume}{16}
+      \field{year}{2017}
+      \field{pages}{27\bibrangedash 33}
+      \range{pages}{7}
     \endentry
     \entry{gao2016}{article}{}
       \name{author}{3}{}{%
@@ -860,6 +1114,34 @@
       \field{pages}{842\bibrangedash 853}
       \range{pages}{12}
     \endentry
+    \entry{helm2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=493a20172ba772b15bcb95959502d555}{%
+           family={Helm},
+           familyi={H\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press UK}%
+      }
+      \strng{namehash}{493a20172ba772b15bcb95959502d555}
+      \strng{fullhash}{493a20172ba772b15bcb95959502d555}
+      \strng{authornamehash}{493a20172ba772b15bcb95959502d555}
+      \strng{authorfullhash}{493a20172ba772b15bcb95959502d555}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Oxford Review of Economic Policy}
+      \field{number}{suppl\_1}
+      \field{title}{Agriculture after brexit}
+      \field{volume}{33}
+      \field{year}{2017}
+      \field{pages}{S124\bibrangedash S133}
+      \range{pages}{-1}
+    \endentry
     \entry{ingram2011}{article}{}
       \name{author}{1}{}{%
         {{hash=836c689b807706375b75e012b51dfd75}{%
@@ -887,6 +1169,47 @@
       \field{year}{2011}
       \field{pages}{417\bibrangedash 431}
       \range{pages}{15}
+    \endentry
+    \entry{james2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e71b95fef2b0e302a606338cf233f337}{%
+           family={James},
+           familyi={J\bibinitperiod},
+           given={William\bibnamedelima HM},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ec1d9323e17551f56d2be1f68cc52455}{%
+           family={Lomax},
+           familyi={L\bibinitperiod},
+           given={Nik},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3086c301c2c6ea3cf95c813346decdfb}{%
+           family={Birkin},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=28c01b6f3c40912ad0fbb467d721e57b}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Lisa\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{cee57d3650c5303f7b400896da5346a5}
+      \strng{fullhash}{5f03128d53c261c08f829746848a4d8a}
+      \strng{authornamehash}{cee57d3650c5303f7b400896da5346a5}
+      \strng{authorfullhash}{5f03128d53c261c08f829746848a4d8a}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Spatial Analysis and Policy}
+      \field{title}{Geodemographic Patterns of Meat Expenditure in Great Britain}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
     \endentry
     \entry{kermack1927}{article}{}
       \name{author}{2}{}{%
@@ -920,6 +1243,68 @@
       \field{year}{1927}
       \field{pages}{700\bibrangedash 721}
       \range{pages}{22}
+    \endentry
+    \entry{kummu2020}{article}{}
+      \name{author}{8}{}{%
+        {{hash=b05ab9d76a9be5761a4742a6d04c0d7b}{%
+           family={Kummu},
+           familyi={K\bibinitperiod},
+           given={Matti},
+           giveni={M\bibinitperiod}}}%
+        {{hash=226731943c459e3ee2d14eefeb4b6d8e}{%
+           family={Kinnunen},
+           familyi={K\bibinitperiod},
+           given={Pekka},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5422bd0de738ca5fee93136a7bc321df}{%
+           family={Lehikoinen},
+           familyi={L\bibinitperiod},
+           given={Elina},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ebe1715b0ab35c095dcbc51679d5ed0e}{%
+           family={Porkka},
+           familyi={P\bibinitperiod},
+           given={Miina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e23f231ee16a4e496e0df4420f98e718}{%
+           family={Queiroz},
+           familyi={Q\bibinitperiod},
+           given={Cibele},
+           giveni={C\bibinitperiod}}}%
+        {{hash=84bc63cb0ac4fe0092721eca8d10a81c}{%
+           family={R\"{o}\"{o}s},
+           familyi={R\bibinitperiod},
+           given={Elin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7d2848d5a68b39c7576060863e4f1806}{%
+           family={Troell},
+           familyi={T\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=022e739c11c26679ca6ef7ea5d776873}{%
+           family={Weil},
+           familyi={W\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{14e1cb1cf4aff569c94eea74935a20f9}
+      \strng{fullhash}{89b9e1fa6ec130039304a8303c228521}
+      \strng{authornamehash}{14e1cb1cf4aff569c94eea74935a20f9}
+      \strng{authorfullhash}{89b9e1fa6ec130039304a8303c228521}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Food Security}
+      \field{title}{Interplay of trade and food system resilience: Gains on supply diversity over time at the cost of trade independency}
+      \field{volume}{24}
+      \field{year}{2020}
+      \field{pages}{100360}
+      \range{pages}{1}
     \endentry
     \entry{legrand2019}{article}{}
       \name{author}{1}{}{%
@@ -1023,6 +1408,69 @@
       \field{year}{2016}
       \field{pages}{095009}
       \range{pages}{1}
+    \endentry
+    \entry{mason2020}{article}{}
+      \name{author}{8}{}{%
+        {{hash=badd30df074aabb376796dd6dd18b254}{%
+           family={Mason-D'Croz},
+           familyi={M\bibinithyphendelim D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2c3b68da2b293477613b0e907f5c282}{%
+           family={Bogard},
+           familyi={B\bibinitperiod},
+           given={Jessica\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=3464aa101b715552fdfec521075e9d8c}{%
+           family={Herrero},
+           familyi={H\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0383c94e9a7e1a50afd56047c49cc09b}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Sherman},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dfc6387e57a17743d58efbdaca0e40e5}{%
+           family={Sulser},
+           familyi={S\bibinitperiod},
+           given={Timothy\bibnamedelima B},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=4a5ff976ba515d222e313a110e87c34d}{%
+           family={Wiebe},
+           familyi={W\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=38825f0d3e7fd6923567f3e58c098ba7}{%
+           family={Willenbockel},
+           familyi={W\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=398b12da3b1952ace171be88d91ddc91}{%
+           family={Godfray},
+           familyi={G\bibinitperiod},
+           given={H\bibnamedelima Charles\bibnamedelima J},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{ede289a852f8fe15553cff8d08ad2ac6}
+      \strng{fullhash}{b8d2c1763b03efa526e3b49d7af70c6d}
+      \strng{authornamehash}{ede289a852f8fe15553cff8d08ad2ac6}
+      \strng{authorfullhash}{b8d2c1763b03efa526e3b49d7af70c6d}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Food}
+      \field{number}{4}
+      \field{title}{Modelling the global economic consequences of a major African swine fever outbreak in China}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{pages}{221\bibrangedash 228}
+      \range{pages}{8}
     \endentry
     \entry{maxwell1996}{article}{}
       \name{author}{1}{}{%
@@ -1184,6 +1632,29 @@
       \field{year}{2017}
       \field{pages}{1153\bibrangedash 1159}
       \range{pages}{7}
+    \endentry
+    \entry{normile2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5a3d914bd890c090b7b15e9b5fc33733}{%
+           family={Normile},
+           familyi={N\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{5a3d914bd890c090b7b15e9b5fc33733}
+      \strng{fullhash}{5a3d914bd890c090b7b15e9b5fc33733}
+      \strng{authornamehash}{5a3d914bd890c090b7b15e9b5fc33733}
+      \strng{authorfullhash}{5a3d914bd890c090b7b15e9b5fc33733}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{African swine fever marches across much of Asia}
+      \field{year}{2019}
     \endentry
     \entry{nystrom2019}{article}{}
       \name{author}{9}{}{%
@@ -1375,6 +1846,83 @@
       \field{pages}{321\bibrangedash 326}
       \range{pages}{6}
     \endentry
+    \entry{poppy2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ec1c436ec37f9fe6d0de8c63398d3530}{%
+           family={Poppy},
+           familyi={P\bibinitperiod},
+           given={Guy\bibnamedelima M},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a2e8444e8c8d986f69b1c8f6dfc21ed0}{%
+           family={Baverstock},
+           familyi={B\bibinitperiod},
+           given={Jenny},
+           giveni={J\bibinitperiod}}}%
+        {{hash=244f6abd79b91f08ed5249f8335752cf}{%
+           family={Baverstock-Poppy},
+           familyi={B\bibinithyphendelim P\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b8a892d9dc5da5ab902d96d18390c9d5}
+      \strng{fullhash}{b8a892d9dc5da5ab902d96d18390c9d5}
+      \strng{authornamehash}{b8a892d9dc5da5ab902d96d18390c9d5}
+      \strng{authorfullhash}{b8a892d9dc5da5ab902d96d18390c9d5}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Food Science \& Technology}
+      \field{title}{Meeting the demand for meat: analysing meat flows to and from the UK pre and post Brexit}
+      \field{volume}{86}
+      \field{year}{2019}
+      \field{pages}{569\bibrangedash 578}
+      \range{pages}{10}
+    \endentry
+    \entry{power2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=36ff0f34c8398ec0e2520aa842353df9}{%
+           family={Power},
+           familyi={P\bibinitperiod},
+           given={Madeleine},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2b7e24adbfc9753df0eca1b74cbb61a9}{%
+           family={Doherty},
+           familyi={D\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod}}}%
+        {{hash=fcca04cd55aba4eba611c61facf22161}{%
+           family={Pybus},
+           familyi={P\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d1a4ab2bf4b56d76425e3b9bf87d7980}{%
+           family={Pickett},
+           familyi={P\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Various}%
+      }
+      \strng{namehash}{579fc0bf4652c7abd884b3c81ab3c72b}
+      \strng{fullhash}{39ba36aaf3e3b5d6ea43fad58f2178cb}
+      \strng{authornamehash}{579fc0bf4652c7abd884b3c81ab3c72b}
+      \strng{authorfullhash}{39ba36aaf3e3b5d6ea43fad58f2178cb}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Emerald Open Research}
+      \field{title}{How COVID-19 has exposed inequalities in the UK food system: The case of UK food and poverty}
+      \field{volume}{2}
+      \field{year}{2020}
+    \endentry
     \entry{rcoreteam2020}{manual}{}
       \name{author}{1}{}{%
         {{hash=a902f7a1275f47f57554b7ea75ccd0bc}{%
@@ -1490,6 +2038,54 @@
       \field{journaltitle}{Journal of Artificial Societies and Social Simulation}
       \field{title}{An Agent-Based Model to Simulate Meat Consumption Behaviour of Consumers in Britain}
       \field{year}{2019}
+    \endentry
+    \entry{scheffer2001}{article}{}
+      \name{author}{5}{}{%
+        {{hash=928c6696327fbb9942013ec7d598f6be}{%
+           family={Scheffer},
+           familyi={S\bibinitperiod},
+           given={Marten},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e6102e4f9cc9c61195b8e6869a764a24}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ebed8ad63ec2d0c70814aab55184f603}{%
+           family={Foley},
+           familyi={F\bibinitperiod},
+           given={Jonathan\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=33396b38f27fa7e13c6e1581623ba37c}{%
+           family={Folke},
+           familyi={F\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0e70dedbf6a6b49642ecd8c9d95c41c5}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK}%
+      }
+      \strng{namehash}{9dd74bc466019c8d66becb6042640aed}
+      \strng{fullhash}{b2a46ed71bde0592f0dab643e3e75e67}
+      \strng{authornamehash}{9dd74bc466019c8d66becb6042640aed}
+      \strng{authorfullhash}{b2a46ed71bde0592f0dab643e3e75e67}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{6856}
+      \field{title}{Catastrophic shifts in ecosystems}
+      \field{volume}{413}
+      \field{year}{2001}
+      \field{pages}{591\bibrangedash 596}
+      \range{pages}{6}
     \endentry
     \entry{seekell2017}{article}{}
       \true{moreauthor}
@@ -1616,6 +2212,49 @@
       \field{year}{2017}
       \field{pages}{311\bibrangedash 331}
       \range{pages}{21}
+    \endentry
+    \entry{sole1996}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b55d33d72467b84d3ccaee4b7c4cc008}{%
+           family={Sol\'{e}},
+           familyi={S\bibinitperiod},
+           given={Ricard\bibnamedelima V},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9404c7f23ccffb4f9bf83cb32488acfe}{%
+           family={Manrubia\bibnamedelima Cuevas},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Susanna},
+           giveni={S\bibinitperiod}}}%
+        {{hash=29b20d5d77de0e14da1bd2840c5cbd50}{%
+           family={Luque},
+           familyi={L\bibinitperiod},
+           given={Bartolo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e9dedd5ec2c4a986f47ff2af93766613}{%
+           family={Delgado},
+           familyi={D\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b71c47fff97792c37706210243e23ae5}{%
+           family={Bascompte},
+           familyi={B\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{52aeca7480e4d1dfaf23699a1b4a8e42}
+      \strng{fullhash}{e99ede079ee04aa02c66a2a7351d4a76}
+      \strng{authornamehash}{52aeca7480e4d1dfaf23699a1b4a8e42}
+      \strng{authorfullhash}{e99ede079ee04aa02c66a2a7351d4a76}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Phase transitions and complex systems: Simple, nonlinear models capture complex systems at the edge of chaos}
+      \field{year}{1996}
     \endentry
     \entry{springmann2018}{article}{}
       \true{moreauthor}
@@ -1971,6 +2610,38 @@
       \field{year}{2019}
       \field{pages}{283}
       \range{pages}{1}
+    \endentry
+    \entry{vermeulen2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a339ae41710680a0c3418919ce5ec38e}{%
+           family={Vermeulen},
+           familyi={V\bibinitperiod},
+           given={Sonja\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e9bd3fbd728f6939fda0b4f2bba38889}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Bruce\bibnamedelima M},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=836c689b807706375b75e012b51dfd75}{%
+           family={Ingram},
+           familyi={I\bibinitperiod},
+           given={John\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0cddbc489111831b66df05e9eab2e9f8}
+      \strng{fullhash}{0cddbc489111831b66df05e9eab2e9f8}
+      \strng{authornamehash}{0cddbc489111831b66df05e9eab2e9f8}
+      \strng{authorfullhash}{0cddbc489111831b66df05e9eab2e9f8}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual review of environment and resources}
+      \field{title}{Climate change and food systems}
+      \field{volume}{37}
+      \field{year}{2012}
     \endentry
     \entry{zawadzka2010}{article}{}
       \name{author}{1}{}{%

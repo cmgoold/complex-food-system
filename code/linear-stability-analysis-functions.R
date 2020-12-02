@@ -1,4 +1,15 @@
 
+critical_ratio <- function(p_list) p_list$alpha*(p_list$omega + p_list$gamma/2)/(p_list$kappa*p_list$gamma*(1+p_list$beta))
+critical_ratio_raw <- function(p_list) {
+  alpha <- p_list$q / p_list$b
+  beta <- p_list$e / p_list$a
+  omega <- p_list$w / p_list$a
+  gamma <- 1 / (p_list$a * p_list$s )
+  kappa <- p_list$k
+  return( alpha*(omega + gamma/2)/(kappa*gamma*(1+beta)) )
+}
+
+surplus_ratio <- function(p_list) p_list$alpha*(p_list$gamma + 2*p_list$omega)/(2*p_list$gamma*(1+p_list$beta)) 
 alpha_critical <- function(p_list) (1+p_list$beta)*p_list$kappa*p_list$gamma/(p_list$omega + p_list$gamma/2)
 kappa_critical <- function(p_list) p_list$alpha*(p_list$omega + p_list$gamma/2)/( (1+p_list$beta)*p_list$gamma)
 

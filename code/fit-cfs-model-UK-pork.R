@@ -21,7 +21,7 @@ d_monthly_uk_pork$total_supply_kg <- with(d_monthly_uk_pork, UK_production_kg - 
 
 # matrix of state variables
 state_variables <- with(d_monthly_uk_pork, 
-                        cbind( breeding_herd_head, NA, total_supply_kg, all_pig_price_p_kg)
+                        cbind( breeding_herd_head, total_supply_kg, NA, all_pig_price_p_kg)
 )
 
 # change NA to -100 so as to be read by Stan
@@ -41,7 +41,7 @@ stan_data <- list(
 )
 
 # compile the model
-cipd_model <- rstan::stan_model("~Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-cfs-model-UK-pork.stan")
+cipd_model <- rstan::stan_model("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-cfs-model-UK-pork.stan")
 
 # fit the model
 fit_uk_pork_model <- rstan::sampling( 
@@ -58,7 +58,7 @@ capture.output(rstan::check_hmc_diagnostics(fit_uk_pork_model),
 
 draws <- as.data.frame(fit_uk_pork_model)
 
-write.csv(draws, file = "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-MCMC-results.csv", row.names = FALSE)
+write.csv(draws, file = "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-MCMC-results2.csv", row.names = FALSE)
 
 capture.output(
   print(fit_uk_pork_model, pars=c("p", "a", "e_", "f", "k", "h", "w", "m","r","q","s","critical_ratio",
@@ -66,5 +66,5 @@ capture.output(
                                   "sigma", "sigma_trade", "sigma_production"), 
         digits_summary = 4, probs=c(0.025, 0.975)
   ),
-  file =  "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-MCMC-summary.csv"
+  file =  "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/Stan-MCMC-summary2.csv"
 )
