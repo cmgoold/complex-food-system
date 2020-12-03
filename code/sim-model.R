@@ -1,5 +1,7 @@
-source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/ode-model.R")
-source("~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/linear-stability-analysis-functions.R")
+code_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/"
+
+source(paste0(code_path, "linear-stability-analysis-functions.R"))
+source(paste0(code_path, "ode-model.R"))
 
 # set the parameters
 a <- 1/52
