@@ -1,4 +1,4 @@
-.gitnore 
+.gitgnore 
 paper/*.blg
 paper/*.aux
 paper/*.bbl
@@ -7,5 +7,6 @@ paper/*.log
 paper/*.out
 paper/*.run.xml
 paper/*.toc
+paper/PNAS/
 
 code/zzz
