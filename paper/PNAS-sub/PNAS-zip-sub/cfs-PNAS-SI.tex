@@ -1,0 +1,231 @@
+\documentclass[9pt,twoside,lineno]{pnas-new}
+% Use the lineno option to display guide line numbers if required.
+
+\templatetype{pnassupportinginfo}
+
+\title{A mathematical model of national-level food system sustainability}
+\author{Conor Goold, Simone Pfuderer, William H. M. James, Nik Lomax, Fiona Smith and Lisa M. Collins}
+\correspondingauthor{Lisa M. Collins.\\E-mail: L.Collins@leeds.ac.uk}
+
+\begin{document}
+
+%% Comment out or remove this line before generating final copy for submission; this will also remove the warning re: "Consecutive odd pages found".
+%\instructionspage  
+
+\maketitle
+
+%% Adds the main heading for the SI text. Comment out this line if you do not have any supporting information text.
+\SItext
+
+
+\subsection*{Non-dimensionalisation}
+To non-dimensionalise the system of equations, we define the dimensionless variables:
+%
+\begin{equation}
+  \tau = \frac{t}{\tilde{t}}, \quad \hat{C} = \frac{C}{\tilde{C}}, \quad \hat{I} = \frac{I}{\tilde{I}}, \quad \hat{D} = \frac{D}{\tilde{D}}, \quad \hat{P} = \frac{P}{\tilde{P}}
+\end{equation}
+%
+Re-writing the original system of equations, we have:
+
+\begin{equation}
+  \frac{d\hat{C} \tilde{C}}{d \tau \tilde{t}} = a \hat{C} \tilde{C} \Big(\frac{\hat{P}\tilde{P}}{b} - 1\Big) - e \hat{C} \tilde{C}
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{I}\tilde{I}}{d \tau  \tilde{t}} = f g \hat{C} \tilde{C} - w \hat{I}\tilde{I} - \frac{\hat{I}\tilde{I}\hat{D}\tilde{D}}{s\hat{D}\tilde{D} + \hat{I}\tilde{I}} + k (h - f g \hat{C} \tilde{C})
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{D}\tilde{D}}{d \tau \tilde{t}} = m \Big( h \frac{q}{\hat{P}\tilde{P}} - \hat{D}\tilde{D}\Big)
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{P}\tilde{P}}{d \tau \tilde{t}} = r \hat{P}\tilde{P} \Big(\frac{s\hat{D}\tilde{D}}{\hat{I}\tilde{I}} - 1\Big)
+\end{equation}
+%
+Re-arranging, we have:
+
+\begin{equation}
+  \frac{d\hat{C}}{d \tau} = a \tilde{t} \hat{C} \Big(\frac{\hat{P}\tilde{P}}{b} - 1\Big) - e \tilde{t} \hat{C}
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{I}}{d\tau} = f g \tilde{t} \tilde{I}^{-1} \tilde{C} \hat{C} - w \tilde{t} \hat{I} - \tilde{t}\frac{\hat{I}\hat{D}\tilde{D}}{s\hat{D}\tilde{D} + \hat{I}\tilde{I}} + \tilde{t} \tilde{I}^{-1} k (h - f g \hat{C} \tilde{C})
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{D}}{d\tau} = m \tilde{t} \tilde{D}^{-1} \Big( h \frac{q}{\hat{P}\tilde{P}} - \hat{D}\tilde{D}\Big)
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{P}}{d\tau} = r \tilde{t} \hat{P}\Big(\frac{s\hat{D}\tilde{D}}{\hat{I}\tilde{I}} - 1\Big)
+\end{equation}
+%
+We choose the following definitions for the scaling parameters:
+
+\begin{equation}
+  \tilde{t} = a^{-1}, \quad \tilde{C} = C_{0}, \quad \tilde{I} = hs , \quad \tilde{D} = h, \quad \tilde{P} = q
+\end{equation}
+%
+which results in:
+
+\begin{equation}
+  \frac{d\hat{C}}{d \tau} = \hat{C} \Big(\frac{q}{b}\hat{P} - 1\Big) - \frac{e}{a} \hat{C}
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{I}}{d\tau} = \frac{f g C_{0}}{ahs} \hat{C} - \frac{w}{a} \hat{I} - \frac{1}{sa} \frac{\hat{I}\hat{D}}{\hat{D} + \hat{I}} + k \Big(\frac{1}{as} - \frac{f g C_0}{ahs} \hat{C}\Big)
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{D}}{d\tau } = \frac{m}{a} \Big( \hat{P}^{-1} - \hat{D}\Big)
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{P}}{d\tau} = \frac{r}{a} \hat{P}\Big(\frac{\hat{D}}{\hat{I}} - 1\Big)
+\end{equation}
+%
+Finally, we rename the dimensionless parameters:
+%
+\begin{equation}
+  \alpha = \frac{q}{b}, \quad
+  \beta = \frac{e}{a}, \quad
+  \delta = \frac{f g C_{0}}{ahs}, \quad
+  \omega = \frac{w}{a}, \quad
+\end{equation}
+\begin{equation}
+  \gamma = \frac{1}{as}, \quad
+  \kappa = k, \quad
+  \mu = \frac{m}{a}, \quad
+  \rho = \frac{r}{a}
+\end{equation}
+%
+and arrive at the full non-dimensionalised system:
+\begin{equation}
+  \frac{d\hat{C}}{d \tau} = \hat{C} \Big(\alpha \hat{P} - 1\Big) - \beta \hat{C}
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{I}}{d\tau} = \delta \hat{C} - \omega \hat{I} - \gamma \frac{\hat{I}\hat{D}}{\hat{D} + \hat{I}} + \kappa ( \gamma - \delta \hat{C})
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{D}}{d\tau } = \mu \Big( \hat{P}^{-1} - \hat{D}\Big)
+\end{equation}
+
+\begin{equation}
+  \frac{d\hat{P}}{d\tau} = \rho \hat{P}\Big(\frac{\hat{D}}{\hat{I}} - 1\Big)
+\end{equation}
+
+\subsection*{Linear stability analysis}  
+We evaluate the stability of the model equilibria using linear stability analysis \cite{strogatz1994}. Linear stability analysis is based on a a Taylor series approximation of the four dimensional system, which results in the following matrix representation of the linearised system:
+%
+\begin{equation}
+  \begin{pmatrix}
+    \frac{d\zeta_{C}}{d\tau} \\
+    \frac{d\zeta_{I}}{d\tau} \\
+    \frac{d\zeta_{D}}{d\tau} \\
+    \frac{d\zeta_{P}}{d\tau}
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    \frac{\partial u}{\partial \hat{C}} & \frac{\partial u}{\partial \hat{I}} & \frac{\partial u}{\partial \hat{D}} & \frac{\partial u}{\partial \hat{P}}\\
+    \frac{\partial v}{\partial \hat{C}} & \frac{\partial v}{\partial \hat{I}} & \frac{\partial v}{\partial \hat{D}} & \frac{\partial v}{\partial \hat{P}}\\
+    \frac{\partial x}{\partial \hat{C}} & \frac{\partial x}{\partial \hat{I}} & \frac{\partial x}{\partial \hat{D}} & \frac{\partial x}{\partial \hat{P}}\\
+    \frac{\partial y}{\partial \hat{C}} & \frac{\partial y}{\partial \hat{I}} & \frac{\partial y}{\partial \hat{D}} & \frac{\partial y}{\partial \hat{P}}\\
+  \end{pmatrix}_{\hat{C}=\hat{C}^{*}, \hat{I}=\hat{I}^{*}, \hat{D}=\hat{D}^{*}, \hat{P}=\hat{P}^{*}}
+  \begin{pmatrix}
+    \zeta_{C} \\
+    \zeta_{I}  \\
+    \zeta_{D}  \\
+    \zeta_{P}
+  \end{pmatrix}
+\end{equation}
+%
+where the new variables $\zeta_{j} = j - j^{*}$ indicate small displacements of the variables $j = \{\hat{C}, \hat{I}, \hat{D}, \hat{P}\}$ from their equilibriums $j^{*} = \{\hat{C}^{*}, \hat{I}^{*}, \hat{D}^{*}, \hat{P}^{*}\}$. The functions $u, v, x, y$ are placeholders for the dimensionless system of equations above. The matrix of partial derivatives is the Jacobian matrix ($\boldsymbol{J}$). The Jacobian equals:
+%
+\begin{equation}
+  \boldsymbol{J} =
+  \begin{bmatrix}
+    % du/dC
+    \alpha \hat{P} - 1 -\beta &
+    % du/dI
+    0 &
+    % du/dD
+    0 &
+    % du dP
+    \alpha \hat{C}\\
+    % dv/dC
+    \delta ( 1 - \kappa) &
+    % dv/dI
+    -\omega - \frac{\gamma \hat{D}^2}{(\hat{D} + \hat{I})^2} &
+    % dv/dD
+    - \frac{\gamma \hat{I}^2}{ (\hat{D} + \hat{I})^2} &
+    % dv/dP
+    0 \\
+    %dx/dC
+    0 &
+    %dx/dI
+    0 &
+    %dx/dD
+    -\mu &
+    %dx/dP
+    -\mu \hat{P}^{-2} \\
+    %dy/dC
+    0 &
+    % dy/dI
+    -\rho \hat{P} \hat{D} \hat{I}^{-2} &
+    % dy/dD
+    \rho \hat{P} \hat{I}^{-1} &
+    % dy/dI
+    \rho (\hat{D} \hat{I}^{-1} - 1) \\
+  \end{bmatrix}
+\end{equation}
+%
+which at the unsustainable production equilibrium evaluates to:
+
+\begin{equation}
+  \boldsymbol{J} \Big |_{\big \{0, \frac{\kappa \gamma}{\omega + \frac{\gamma}{2}}, \frac{\kappa \gamma}{\omega + \frac{\gamma}{2}}, \frac{\omega + \frac{\gamma}{2}}{\kappa \gamma}\big \}} =
+  \begin{pmatrix}
+    \frac{\alpha(\omega + \frac{\gamma}{2})}{\kappa \gamma} - 1 - \beta   &    0     &     0    &  0 \\
+    \delta (1 - \kappa) & - \omega - \frac{\gamma}{4}  &  - \frac{\gamma}{4} & 0 \\
+    0      &           0            & -\mu     & - \mu (\frac{\kappa \gamma}{\omega + \frac{\gamma}{2}})^2\\
+    0      &   - \rho (\frac{\omega + \frac{\gamma}{2}}{\kappa \gamma})^2    & \rho (\frac{\omega + \frac{\gamma}{2}}{\kappa \gamma})^2 & 0 \\
+  \end{pmatrix}
+\end{equation}
+%
+The Jacobian matrix thus provides us with a linear approximation of the non-linear model at the unsustainable domestic production equilibrium. To ascertain whether small perturbations move away or towards the equilibrium, we calculate the eigenvalues by solving for the roots of the characteristic polynomial $\text{Det}(\mathbf{J} - \mathbf{I}\lambda)$, equal to:
+
+\begin{equation}
+  \Big(\frac{\alpha(\omega + \frac{\gamma}{2})}{\kappa \gamma} - 1 - \beta - \lambda\Big) \Big[ - \lambda^3 + \big(-\omega - \frac{\gamma}{4} - \mu\big) \lambda^2 + \big(- \mu(\omega + \rho) - \frac{\gamma}{4}\big) \lambda - \frac{\gamma}{2} \mu \rho\Big] = 0
+\end{equation}
+%
+While the first eigenvalue can be ascertained directly (see the critical ratio in the main text), the roots of the third-degree polynomial in the brackets are more difficult to determine. Instead, we use the Routh-Hurwitz criterion \cite{ottoday2011} to determine the sign of the remaining roots. Writing the third-degree polynomial as:
+
+\begin{equation}
+  \lambda^3 + \big(\omega + \frac{\gamma}{4} + \mu\big) \lambda^2 + \big(\mu(\omega + \rho) + \frac{\gamma}{4}\big) \lambda + \frac{\gamma}{2} \mu \rho = 0
+\end{equation}
+%
+\begin{equation}
+  \lambda^3 + \epsilon_{1} \lambda^2 + \epsilon_{2} \lambda + \epsilon_{3} = 0
+\end{equation}
+%
+the Routh-Hurwitz criterion state that the eigenvalues will be negative if:
+
+\begin{equation}
+  \epsilon_{1} > 0, \quad
+  \epsilon_{3} > 0, \quad
+  \epsilon_{1} \epsilon_{2} > \epsilon_{3}
+\end{equation}
+%
+The first two conditions immediately hold because all parameters are positive, and numerical assessment demonstrates that the third condition also holds. Thus, the remaining eigenvalues are negative, leaving the stability of the equilibrium completely determined by the critical ratio.
+%
+
+\section*{Data and code repository}
+A Github repository for all data and code used in this manuscript is available at \href{https://github.com/cmgoold/cfs-model}{https://github.com/cmgoold/cfs-model}, including:
+
+\dataset{uk_pork_industry_monthly_data.csv}{The 2015-2019 monthly data on the UK pork industry used to fit the food systems model. Available at \\\href{https://github.com/cmgoold/cfs-model/tree/master/data}{https://github.com/cmgoold/cfs-model/tree/master/data}.}
+
+\bibliography{cfs-SI-refs.bib}
+
+\end{document}
