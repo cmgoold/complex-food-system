@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Goold_et_al_2020-preprint.aux
+The style file: abbrv.bst
+Database file #1: Goold_et_al_2020-preprint.bib
+Warning--empty institution in BPEXprofitability2011
+You've used 71 entries,
+            2118 wiz_defined-function locations,
+            919 strings with 16283 characters,
+and the built_in function-call counts, 23352 in all, are:
+= -- 2255
+> -- 1254
+< -- 2
++ -- 514
+- -- 429
+* -- 1772
+:= -- 4039
+add.period$ -- 213
+call.type$ -- 71
+change.case$ -- 418
+chr.to.int$ -- 0
+cite$ -- 72
+duplicate$ -- 743
+empty$ -- 1725
+format.name$ -- 429
+if$ -- 4668
+int.to.chr$ -- 0
+int.to.str$ -- 71
+missing$ -- 61
+newline$ -- 357
+num.names$ -- 144
+pop$ -- 384
+preamble$ -- 1
+purify$ -- 352
+quote$ -- 0
+skip$ -- 516
+stack$ -- 0
+substring$ -- 1432
+swap$ -- 80
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 276
+warning$ -- 1
+while$ -- 230
+width$ -- 73
+write$ -- 768
+(There was 1 warning)
