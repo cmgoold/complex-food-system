@@ -1,4 +1,4 @@
-code_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/"
+code_path <- ""
 
 source(paste0(code_path, "linear-stability-analysis-functions.R"))
 source(paste0(code_path, "ode-model.R"))

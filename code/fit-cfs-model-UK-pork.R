@@ -3,8 +3,8 @@
 #   using  Stan
 #   Copyright Conor Goold (2020)
 #####################################################################
-code_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/"
-data_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/data/"
+code_path <- ""
+data_path <- ""
 
 source(paste0(code_path, "utilities.R"))
 source(paste0(code_path, "ode-model.R"))

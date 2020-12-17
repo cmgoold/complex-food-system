@@ -1,5 +1,5 @@
-code_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/code/"
-figure_path <- "~/Dropbox/Leeds_postdoc/Papers/cfs-model/paper/figures"
+code_path <- ""
+figure_path <- ""
 
 source(paste0(code_path, "linear-stability-analysis-functions.R"))
 source(paste0(code_path, "utilities.R"))
@@ -246,7 +246,7 @@ dev.off()
 #######################################################################
 # model results
 # load the data
-d_monthly_uk_pork <- read.csv("~/Dropbox/Leeds_postdoc/Papers/cfs-model/data/uk_pork_industry_monthly_data.csv")
+d_monthly_uk_pork <- read.csv(paste0(data_path, "uk_pork_industry_monthly_data.csv"))
 
 d_monthly_uk_pork$imports_kg <- d_monthly_uk_pork$imports_tonnes * 1000
 d_monthly_uk_pork$exports_kg <- d_monthly_uk_pork$exports_tonnes * 1000
