@@ -1,7 +1,8 @@
 from abc import ABC, abstractmethod
-from typing import Dict, Optional, List
+from typing import Dict, Optional, List, Sequence
 
-States = List[float]
+States = Sequence[float]
+Derivatives = Sequence[float]
 Parameters = Dict[str, float]
 
 class Ode(ABC):
@@ -15,7 +16,7 @@ class Ode(ABC):
     n_states = property(lambda self: self._n_states)
 
     @abstractmethod
-    def derivatives(self, states: States, t: float) -> List[float]:
+    def derivatives(self, states: States, t: float) -> Derivatives:
         if len(states) != self._n_states:
             raise ValueError(f"Number of expected states is {self._n_states} but Ode model was given {len(states)}.")
         pass
@@ -28,6 +29,6 @@ class Logistic(Ode):
     r = property(lambda self: self._parameters["r"])
     k = property(lambda self: self._parameters["k"])
 
-    def derivatives(self, states: States, t: float) -> List[float]:
+    def derivatives(self, states: States, t: float) -> Derivatives:
         y, = states
-        return [self.r * y * (1 - y / self.k)]
+        return self.r * y * (1 - y / self.k),
