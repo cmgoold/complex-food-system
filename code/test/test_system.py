@@ -1,7 +1,7 @@
 import numpy as np
 
 from ode.system import FoodSystem, DimensionlessFoodSystem
-from ode.ode import Rk4
+from ode.solve import Rk4
 
 BASE_PARAMETERS = {
     "a": 0.05,
@@ -44,7 +44,7 @@ def test_food_system_results():
     dt = 0.01
     times = np.arange(0, 120, dt)
     system = FoodSystem(parameters=BASE_PARAMETERS, state_names=list(BASE_STATES.keys()))
-    rk4 = Rk4(system, states=BASE_STATES, dt=dt)
+    rk4 = Rk4(system, states=BASE_STATES)
     rk4.solve(times)
     assert np.isclose(list(rk4.states.values()), (328482.7, 96220820, 96129841, 216.2046), rtol=1e-5).all()
 
@@ -56,15 +56,14 @@ def test_dimensionless_food_system_results():
         "y": 1.0,
         "z": 1.0,
     }
-    print(DSTATES)
-    dt = 0.01
-    times = np.arange(0, 120, dt)
+    dt_raw = 0.001
+    times = np.arange(0, 1 + dt_raw, dt_raw)
     tau = [t / (1 / BASE_PARAMETERS["a"]) for t in times]
+    dt = tau[1] - tau[0]
     system = FoodSystem(parameters=BASE_PARAMETERS, state_names=list(BASE_STATES.keys()))
     dsystem = DimensionlessFoodSystem.from_dimensional(system, BASE_STATES["C"])
-    rk4 = Rk4(dsystem, states=DSTATES, dt=dt)
-    rk4.solve(tau[:2])
-    print(tau[:2], rk4.states)
+    rk4 = Rk4(dsystem, states=DSTATES)
+    rk4.solve(tau)
     assert np.isclose(dsystem.critical_ratio, 1.969231, rtol=1e-5)
     assert np.isclose(dsystem.surplus_ratio, 0.5907692, rtol=1e-5)
-    #assert np.isclose(list(rk4.states.values()), (0.8212068, 0.7401602, 0.7394603, 1.351279), rtol=1e-5).all()
+    assert np.isclose(list(rk4.states.values()), (0.9786494, 0.8860546, 0.9993940, 1.011222), rtol=1e-5).all()
