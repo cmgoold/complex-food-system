@@ -1,40 +1,40 @@
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
-from typing import List
+from typing import List, Sequence
 
 from ..ode import Ode, States
 
+Times = Sequence[float]
 
 class Solver(ABC):
     """Solve ODE models."""
 
-    def __init__(self, model: Ode, states: States) -> None:
+    def __init__(self, model: Ode, states: States, times: Times) -> None:
         self._model = model
         self._states = states
-        self._dt = None
+        self._times = times
+        self._dt = times[1] - times[0]
+        self._cache: Dict[float, States] = {}
 
     model = property(lambda self: self._model)
+    times = property(lambda self: self._times)
+    dt = property(lambda self: self._dt)
+    cache = property(lambda self: self._cache)
     
-    @property
-    def dt(self) -> float:
-        return self._dt
-
-    @dt.setter
-    def dt(self) -> None:
-        self._dt = dt
-
-    def solve(self, times: Sequence[float]) -> Solver:
-        self._dt = times[1] - times[0]
-        for t in times:
-            self.solve_t(t)
+    def solve(self, cache: bool = False) -> Solver:
+        for t in self._times:
+            if t in self._cache:
+                continue
+            else:
+                self.solve_t(t)
+                if cache:
+                    self._cache[t] = self._states
 
         return self
 
     @abstractmethod
     def solve_t(self, t: float) -> Solver:
-        if self._dt is None:
-            raise ValueError("dt interval for the solver is `None` -- set the dt interval first.")
         pass
 
     @property

@@ -1,14 +1,14 @@
 from __future__ import annotations
 
 from ..ode import Ode, States
-from .solve import Solver
+from .solve import Solver, Times
 
 
 class Rk4(Solver):
     """The Runke-Kutta 4th order solver."""
 
-    def __init__(self, model: Ode, states: States) -> None:
-        super().__init__(model, states)
+    def __init__(self, model: Ode, states: States, times: Times) -> None:
+        super().__init__(model, states, times)
 
     def solve_t(self, t: float) -> Rk4:
         constant = 1.0 / 6.0

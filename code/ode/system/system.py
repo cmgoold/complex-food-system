@@ -81,6 +81,12 @@ class DimensionlessFoodSystem(Ode):
         )
 
     @property
+    def critical_alpha(self) -> float:
+        return (
+            (1 + self.beta)*self.kappa*self.gamma/(self.omega + self.gamma/2)
+        )
+
+    @property
     def surplus_ratio(self) -> float:
         return self.kappa * self.critical_ratio
 

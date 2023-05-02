@@ -1,7 +1,7 @@
 functions{
 
-  // ODE model definition to be passed to integrate_ode_rk45 solver in Stan
-  vector cidp_ode(real t, vector y, real[] theta)
+  // ODE model definition to be passed to ode_rk45 solver in Stan
+  vector cidp_ode(real t, vector y, array[] real theta)
   {
     // parameters
     real a = theta[1];
@@ -36,11 +36,11 @@ functions{
 
 data{
   int<lower=1> n_t;
-  real<lower=0> ts[n_t];
+  array[n_t] real<lower=0> ts;
   int<lower=1> n_states;
   int<lower=0> n_parameters;
   matrix[n_t, n_states] y;
-  vector[n_t] uk_production;
+  vector[n_t] production;
   vector[n_t] imports;
   vector[n_t] exports;
   int<lower=0,upper=1> prior_only;
@@ -67,12 +67,12 @@ parameters{
   vector<lower=0>[n_states] states_init;
   vector<lower=0>[n_states] sigma;
   real<lower=0> sigma_production;
-  real<lower=0> sigma_trade[2];
+  array[2] real<lower=0> sigma_trade;
 }
 
 transformed parameters{
-  vector[n_states] states[n_t];
-  real p[n_parameters];
+  array[n_t] vector[n_states] states;
+  array[n_parameters] real p;
   vector[n_states] initial_values;
 
   // model parameters -- need to re-scale from the prior values to aid the HMC sampler
@@ -130,7 +130,7 @@ model{
       }//i
     }//n
 
-    uk_production ~ lognormal( log( to_vector(states[,1]) * p[4] * p[5] ), sigma_production);
+    production ~ lognormal( log( to_vector(states[,1]) * p[4] * p[5] ), sigma_production);
     imports ~ lognormal( log( p[6] * p[7]), sigma_trade[1]);
     exports ~ lognormal( log( p[6] * to_vector(states[,1]) * p[4] * p[5] ), sigma_trade[2]);
   }//Lk
